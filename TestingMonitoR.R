@@ -79,7 +79,7 @@ template4 <- makeCorTemplate(fileList[4], frq.lim = c(0.2, 1.8), t.lim = c(0, 10
 sunwave <- readWave(fileList[5])
 template5 <- makeCorTemplate(fileList[5], frq.lim = c(0.2, 1.8), t.lim = c(0, 10), name = "t5")
 
-print(template5)
+
 
 ctemps <- combineCorTemplates(template1, template2, template3, template4, template5)
 
@@ -99,11 +99,25 @@ for(value in fileList) {
   print(cscores)
 }
 
+fileList <- list.files(path = "call_distance_four", full.names = TRUE)
+for(value in fileList) {
+  cscores <- corMatch(value, ctemps)
+  print(cscores)
+}
+
+fileList <- list.files(path = "howler_sample", full.names = TRUE)
+for(value in fileList) {
+  cscores <- corMatch(value, ctemps)
+  print(cscores)
+}
 
 
 
-
-
+fileList <- list.files(path = "call_distance_four", full.names = TRUE)
+for(value in fileList) {
+  data(value)
+  viewSpec(value, page.length = Inf)
+}
 
 
 

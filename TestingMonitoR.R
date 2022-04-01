@@ -59,29 +59,29 @@ library(foreach)
 
 
 
+# now working on binary template matching instead of cross-correlation
+
 fileList <- list.files(path = "AutomatedDetection_CreatingTemplates", full.names = TRUE)
 
 waveList <- list()
 templateList <- list()
 
 sunwave <- readWave(fileList[1])
-template1 <- makeCorTemplate(fileList[1], frq.lim = c(0.2, 1.8), t.lim = c(0, 10), name = "t1")
+template1 <- makeBinTemplate(fileList[1], frq.lim = c(0.2, 1.8), t.lim = c(0, 10), name = "t1")
 
 sunwave <- readWave(fileList[2])
-template2 <- makeCorTemplate(fileList[2], frq.lim = c(0.2, 1.8), t.lim = c(0, 10), name = "t2")
+template2 <- makeBinTemplate(fileList[2], frq.lim = c(0.2, 1.8), t.lim = c(0, 10), name = "t2")
 
 sunwave <- readWave(fileList[3])
-template3 <- makeCorTemplate(fileList[3], frq.lim = c(0.2, 1.8), t.lim = c(0, 10), name = "t3")
+template3 <- makeBinTemplate(fileList[3], frq.lim = c(0.2, 1.8), t.lim = c(0, 10), name = "t3")
 
 sunwave <- readWave(fileList[4])
-template4 <- makeCorTemplate(fileList[4], frq.lim = c(0.2, 1.8), t.lim = c(0, 10), name = "t4")
+template4 <- makeBinTemplate(fileList[4], frq.lim = c(0.2, 1.8), t.lim = c(0, 10), name = "t4")
 
 sunwave <- readWave(fileList[5])
-template5 <- makeCorTemplate(fileList[5], frq.lim = c(0.2, 1.8), t.lim = c(0, 10), name = "t5")
+template5 <- makeBinTemplate(fileList[5], frq.lim = c(0.2, 1.8), t.lim = c(0, 10), name = "t5")
 
-
-
-ctemps <- combineCorTemplates(template1, template2, template3, template4, template5)
+ctemps <- combineBinTemplates(template1, template2, template3, template4, template5)
 
 
 # HARPIA_20130216_060000    -- POSITIVE CASE
@@ -93,31 +93,54 @@ ctemps <- combineCorTemplates(template1, template2, template3, template4, templa
 # cscores <- corMatch("audio/HARPIA_20130220_061500.wav", ctemps)
 # cscores
 
-fileList <- list.files(path = "medium_sample", full.names = TRUE)
-for(value in fileList) {
-  cscores <- corMatch(value, ctemps)
-  print(cscores)
-}
 
-fileList <- list.files(path = "call_distance_four", full.names = TRUE)
-for(value in fileList) {
-  cscores <- corMatch(value, ctemps)
-  print(cscores)
-}
 
-fileList <- list.files(path = "howler_sample", full.names = TRUE)
+# call distance four titi monkeys
+fileList <- list.files(path = "subset_samples/call_distance_four", full.names = TRUE)
 for(value in fileList) {
   cscores <- corMatch(value, ctemps)
   print(cscores)
 }
 
 
-
-fileList <- list.files(path = "call_distance_four", full.names = TRUE)
-for(value in fileList) {
-  data(value)
-  viewSpec(value, page.length = Inf)
+# medium-sized sample -- 15 files. 14 have no detections and 1 file has titi
+# monkeys (positive case file is HARPIA_20130216_060000, will run second of 15)
+# line 83 of data google sheet
+fileList <- list.files(path = "subset_samples/medium_sample", full.names = TRUE)
+for(value in fileList){
+  cscores <- binMatch(value, ctemps)
+  print(cscores)
 }
+
+
+# howler monkey samples against titi monkey template
+fileList <- list.files(path = "subset_samples/howler_sample", full.names = TRUE)
+for(value in fileList) {
+  cscores <- binMatch(value, ctemps)
+  print(cscores)
+}
+
+
+# stereo/mono channel experiment. one audio sample -- only right channel is 
+# functioning for these recordings (damage to left mic)
+fileList <- list.files(path = "subset_samples/mic_2_sample", full.names = TRUE)
+for(value in fileList) {
+  stereo_channel_wave <- readWave(value)
+  stereo_channel_wave
+  mono_channel_wave <- mono(isolated_channel_wave, "right")
+  mono_channel_wave
+  cscores1 <- corMatch(stereo_channel_wave, ctemps, write.wav=TRUE)
+  print(cscores1)
+  cscores2 <- corMatch(mono_channel_wave, ctemps, write.wav=TRUE)
+  print(cscores2)
+}
+
+
+# experiments to think about
+  # using findPeaks function on cscores -- are we in the middle of the pipeline
+  # does a bin/cor matching use both channels or just one channel
+  # how many templates should we have in our set
+  # howler monkeys -- can we use minScore to consistently mark them negative?
 
 
 

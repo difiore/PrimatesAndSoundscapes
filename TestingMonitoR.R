@@ -63,9 +63,6 @@ library(foreach)
 
 fileList <- list.files(path = "AutomatedDetection_CreatingTemplates", full.names = TRUE)
 
-waveList <- list()
-templateList <- list()
-
 sunwave <- readWave(fileList[1])
 template1 <- makeBinTemplate(fileList[1], frq.lim = c(0.2, 1.8), t.lim = c(0, 10), name = "t1")
 
@@ -81,19 +78,58 @@ template4 <- makeBinTemplate(fileList[4], frq.lim = c(0.2, 1.8), t.lim = c(0, 10
 sunwave <- readWave(fileList[5])
 template5 <- makeBinTemplate(fileList[5], frq.lim = c(0.2, 1.8), t.lim = c(0, 10), name = "t5")
 
-ctemps <- combineBinTemplates(template1, template2, template3, template4, template5)
+ctemps_default_amp <- combineBinTemplates(template1, template2, template3, template4, template5)
 
 
-# HARPIA_20130216_060000    -- POSITIVE CASE
-# HARPIA_20130220_061500    -- NEGATIVE CASE
 
-# cscores <- corMatch("audio/HARPIA_20130216_060000.wav", ctemps)
-# cscores
-# 
-# cscores <- corMatch("audio/HARPIA_20130220_061500.wav", ctemps)
-# cscores
+sunwave <- readWave(fileList[1])
+template1b <- makeBinTemplate(fileList[1], frq.lim = c(0.3, 1.6), t.lim = c(25, 35), name = "t1", amp.cutoff = (-23))
 
+sunwave <- readWave(fileList[2])
+template2b <- makeBinTemplate(fileList[2], frq.lim = c(0.2, 1.8), t.lim = c(0, 10), name = "t2", amp.cutoff = (-25))
 
+sunwave <- readWave(fileList[3])
+template3b <- makeBinTemplate(fileList[3], frq.lim = c(0.2, 1.8), t.lim = c(45, 55), name = "t3", amp.cutoff = (-22))
+
+sunwave <- readWave(fileList[4])
+template4b <- makeBinTemplate(fileList[4], frq.lim = c(0.2, 1.4), t.lim = c(0, 10), name = "t4", amp.cutoff = (-29))
+
+sunwave <- readWave(fileList[5])
+template5b <- makeBinTemplate(fileList[5], frq.lim = c(0.2, 1.4), t.lim = c(0, 10), name = "t5", amp.cutoff = (-26))
+
+ctemps_adjusted_amp <- combineBinTemplates(template1b, template2b, template3b, template4b, template5b)
+
+# HARPIA_20130216_054500    -- NEGATIVE CASE
+# HARPIA_20130220_061500  -- NEGATIVE CASE
+# HARPIA_20130216_060000    -- POSITIVE CASE - TITI MONKEY
+# HARPIA_20140213_060000  -- FALSE POSITIVE CASE - HOWLER MONKEY
+
+# test unadjusted templates
+cscores <- binMatch("subset_samples/basic_test/HARPIA_20130216_054500.wav", ctemps_default_amp) # neg 1
+print(cscores)
+
+cscores <- binMatch("subset_samples/basic_test/HARPIA_20130220_061500.wav", ctemps_default_amp) # neg 2
+print(cscores)
+
+cscores <- binMatch("subset_samples/basic_test/HARPIA_20130216_060000.wav", ctemps_default_amp) # pos 1 
+print(cscores)
+
+cscores <- binMatch("subset_samples/basic_test/HARPIA_20140213_060000.wav", ctemps_default_amp) # false pos 1
+print(cscores)
+ 
+
+#test manually adjusted templates
+cscores <- binMatch("subset_samples/basic_test/HARPIA_20130216_054500.wav", ctemps_adjusted_amp) # neg 1
+print(cscores)
+
+cscores <- binMatch("subset_samples/basic_test/HARPIA_20130220_061500.wav", ctemps_adjusted_amp) # neg 2
+print(cscores)
+
+cscores <- binMatch("subset_samples/basic_test/HARPIA_20130216_060000.wav", ctemps_adjusted_amp) # pos 1
+print(cscores)
+
+cscores <- binMatch("subset_samples/basic_test/HARPIA_20140213_060000.wav", ctemps_adjusted_amp) # false pos 1
+print(cscores)
 
 # call distance four titi monkeys
 fileList <- list.files(path = "subset_samples/call_distance_four", full.names = TRUE)
@@ -141,9 +177,4 @@ for(value in fileList) {
   # does a bin/cor matching use both channels or just one channel
   # how many templates should we have in our set
   # howler monkeys -- can we use minScore to consistently mark them negative?
-
-
-
-
-
 

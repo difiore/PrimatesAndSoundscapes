@@ -67,37 +67,96 @@ sunwave <- readWave(fileList[1])
 template1 <- makeBinTemplate(fileList[1], frq.lim = c(0.2, 1.8), t.lim = c(0, 10), name = "t1")
 
 sunwave <- readWave(fileList[2])
-template2 <- makeBinTemplate(fileList[2], frq.lim = c(0.2, 1.8), t.lim = c(0, 10), name = "t2")
+template2 <- makeBinTemplate(fileList[2], frq.lim = c(0.2, 1.8), t.lim = c(87, 97), name = "t2")
 
 sunwave <- readWave(fileList[3])
 template3 <- makeBinTemplate(fileList[3], frq.lim = c(0.2, 1.8), t.lim = c(0, 10), name = "t3")
 
 sunwave <- readWave(fileList[4])
-template4 <- makeBinTemplate(fileList[4], frq.lim = c(0.2, 1.8), t.lim = c(0, 10), name = "t4")
+template4 <- makeBinTemplate(fileList[4], frq.lim = c(0.2, 1.8), t.lim = c(30, 40), name = "t4")
 
 sunwave <- readWave(fileList[5])
 template5 <- makeBinTemplate(fileList[5], frq.lim = c(0.2, 1.8), t.lim = c(0, 10), name = "t5")
 
-ctemps_default_amp <- combineBinTemplates(template1, template2, template3, template4, template5)
+sunwave <- readWave(fileList[6])
+template6 <- makeBinTemplate(fileList[5], frq.lim = c(0.2, 1.8), t.lim = c(15, 25), name = "t6")
+
+sunwave <- readWave(fileList[7])
+template7 <- makeBinTemplate(fileList[5], frq.lim = c(0.2, 1.8), t.lim = c(17, 27), name = "t7")
+
+sunwave <- readWave(fileList[8])
+template8 <- makeBinTemplate(fileList[5], frq.lim = c(0.2, 1.8), t.lim = c(36, 46), name = "t8")
+
+ctemps_default_amp <- combineBinTemplates(template1, template2, template3, template4, template5, template6, template7, template8)
 
 
 
 sunwave <- readWave(fileList[1])
-template1b <- makeBinTemplate(fileList[1], frq.lim = c(0.3, 1.6), t.lim = c(25, 35), name = "t1", amp.cutoff = (-23))
+template1b <- makeBinTemplate(fileList[1], frq.lim = c(0.3, 1.6), t.lim = c(25, 35), name = "F1,025,-21,T", amp.cutoff = (-21))
 
 sunwave <- readWave(fileList[2])
-template2b <- makeBinTemplate(fileList[2], frq.lim = c(0.2, 1.8), t.lim = c(0, 10), name = "t2", amp.cutoff = (-25))
+template2b1 <- makeBinTemplate(fileList[2], frq.lim = c(0.2, 1.8), t.lim = c(0, 10), name = "F2,000,-21,T", amp.cutoff = (-21))
+template2b2 <- makeBinTemplate(fileList[2], frq.lim = c(0.2, 1.8), t.lim = c(87, 97), name = "F2,087,-21,T", amp.cutoff = (-21)) 
 
 sunwave <- readWave(fileList[3])
-template3b <- makeBinTemplate(fileList[3], frq.lim = c(0.2, 1.8), t.lim = c(45, 55), name = "t3", amp.cutoff = (-22))
+template3b <- makeBinTemplate(fileList[3], frq.lim = c(0.2, 1.8), t.lim = c(0, 10), name = "F3,000,-20,T", amp.cutoff = (-20))
 
 sunwave <- readWave(fileList[4])
-template4b <- makeBinTemplate(fileList[4], frq.lim = c(0.2, 1.4), t.lim = c(0, 10), name = "t4", amp.cutoff = (-29))
+template4b1 <- makeBinTemplate(fileList[4], frq.lim = c(0.2, 1.4), t.lim = c(0, 10), name = "F4,000,-25,T", amp.cutoff = (-25))
+template4b2 <- makeBinTemplate(fileList[4], frq.lim = c(0.2, 1.8), t.lim = c(30, 40), name = "F4,030,-24,T", amp.cutoff = (-24)) 
 
 sunwave <- readWave(fileList[5])
-template5b <- makeBinTemplate(fileList[5], frq.lim = c(0.2, 1.4), t.lim = c(0, 10), name = "t5", amp.cutoff = (-26))
+template5b <- makeBinTemplate(fileList[5], frq.lim = c(0.2, 1.4), t.lim = c(65, 75), name = "F5,065,-21,T", amp.cutoff = (-21))
 
-ctemps_adjusted_amp <- combineBinTemplates(template1b, template2b, template3b, template4b, template5b)
+sunwave <- readWave(fileList[8])
+template8b1 <- makeBinTemplate(fileList[5], frq.lim = c(0.3, 1.5), t.lim = c(25, 35), name = "F8,025,-24,T", amp.cutoff = (-24)) 
+template8b2 <- makeBinTemplate(fileList[5], frq.lim = c(0.3, 1.5), t.lim = c(36, 46), name = "F8,036,-24,T", amp.cutoff = (-24)) 
+
+sunwave <- readWave(fileList[6])
+template6b <- makeBinTemplate(fileList[5], frq.lim = c(0.3, 1.4), t.lim = c(15, 25), name = "F6,015,-32,H", amp.cutoff = (-32)) 
+
+sunwave <- readWave(fileList[7])
+template7b <- makeBinTemplate(fileList[5], frq.lim = c(0.3, 1.4), t.lim = c(17, 27), name = "F7,017,-26,H", amp.cutoff = (-26)) 
+
+ctemps_adjusted_amp <- combineBinTemplates(template1b, template2b1, template2b2, template3b, template4b1, template4b2, template5b, template8b1, template8b2, template6b, template7b)
+
+
+
+folderList <- list.files(path = "AutomatedDetection_TestingTemplates/4,200", full.names = TRUE)
+
+outputList <- list.files(path = "AutomatedDetection_TestingTemplates/4,200", full.names = TRUE)
+print(outputList[1])
+
+audioFileList <- list.files(path = outputList[1], full.names = TRUE)
+print(audioFileList[1])
+
+
+
+
+folderCounter = 1
+maxFilesPerFolder = 10   # we need to stop at 8:15 am exclusive
+
+sink(file = "output.txt")
+
+for(folder in folderList) {
+  fileCounter = 1
+  audioFileList <- list.files(path = folderList[folderCounter], full.names = TRUE)
+  print(paste("folder", folderCounter))
+  while(fileCounter <= maxFilesPerFolder) {
+    print(paste("    file", fileCounter))
+    scores <- binMatch(audioFileList[fileCounter], ctemps_adjusted_amp, quiet = TRUE)
+    print(scores) 
+    fileCounter = fileCounter + 1
+  }
+  folderCounter = folderCounter + 1
+}
+
+sink()
+
+
+
+
+
 
 # HARPIA_20130216_054500    -- NEGATIVE CASE
 # HARPIA_20130220_061500  -- NEGATIVE CASE

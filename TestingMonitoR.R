@@ -64,34 +64,6 @@ library(foreach)
 fileList <- list.files(path = "AutomatedDetection_CreatingTemplates", full.names = TRUE)
 
 sunwave <- readWave(fileList[1])
-template1 <- makeBinTemplate(fileList[1], frq.lim = c(0.2, 1.8), t.lim = c(0, 10), name = "t1")
-
-sunwave <- readWave(fileList[2])
-template2 <- makeBinTemplate(fileList[2], frq.lim = c(0.2, 1.8), t.lim = c(87, 97), name = "t2")
-
-sunwave <- readWave(fileList[3])
-template3 <- makeBinTemplate(fileList[3], frq.lim = c(0.2, 1.8), t.lim = c(0, 10), name = "t3")
-
-sunwave <- readWave(fileList[4])
-template4 <- makeBinTemplate(fileList[4], frq.lim = c(0.2, 1.8), t.lim = c(30, 40), name = "t4")
-
-sunwave <- readWave(fileList[5])
-template5 <- makeBinTemplate(fileList[5], frq.lim = c(0.2, 1.8), t.lim = c(0, 10), name = "t5")
-
-sunwave <- readWave(fileList[6])
-template6 <- makeBinTemplate(fileList[5], frq.lim = c(0.2, 1.8), t.lim = c(15, 25), name = "t6")
-
-sunwave <- readWave(fileList[7])
-template7 <- makeBinTemplate(fileList[5], frq.lim = c(0.2, 1.8), t.lim = c(17, 27), name = "t7")
-
-sunwave <- readWave(fileList[8])
-template8 <- makeBinTemplate(fileList[5], frq.lim = c(0.2, 1.8), t.lim = c(36, 46), name = "t8")
-
-ctemps_default_amp <- combineBinTemplates(template1, template2, template3, template4, template5, template6, template7, template8)
-
-
-
-sunwave <- readWave(fileList[1])
 template1b <- makeBinTemplate(fileList[1], frq.lim = c(0.3, 1.6), t.lim = c(25, 35), name = "F1,025,-21,T", amp.cutoff = (-21))
 
 sunwave <- readWave(fileList[2])
@@ -109,35 +81,30 @@ sunwave <- readWave(fileList[5])
 template5b <- makeBinTemplate(fileList[5], frq.lim = c(0.2, 1.4), t.lim = c(65, 75), name = "F5,065,-21,T", amp.cutoff = (-21))
 
 sunwave <- readWave(fileList[8])
-template8b1 <- makeBinTemplate(fileList[5], frq.lim = c(0.3, 1.5), t.lim = c(25, 35), name = "F8,025,-24,T", amp.cutoff = (-24)) 
-template8b2 <- makeBinTemplate(fileList[5], frq.lim = c(0.3, 1.5), t.lim = c(36, 46), name = "F8,036,-24,T", amp.cutoff = (-24)) 
+template8b1 <- makeBinTemplate(fileList[8], frq.lim = c(0.3, 1.5), t.lim = c(25, 35), name = "F8,025,-24,T", amp.cutoff = (-23)) 
+template8b2 <- makeBinTemplate(fileList[8], frq.lim = c(0.3, 1.5), t.lim = c(36, 46), name = "F8,036,-24,T", amp.cutoff = (-22)) 
 
 sunwave <- readWave(fileList[6])
-template6b <- makeBinTemplate(fileList[5], frq.lim = c(0.3, 1.4), t.lim = c(15, 25), name = "F6,015,-32,H", amp.cutoff = (-32)) 
+template6b <- makeBinTemplate(fileList[6], frq.lim = c(0.2, 1.0), t.lim = c(15, 25), name = "F6,015,-32,H") 
 
 sunwave <- readWave(fileList[7])
-template7b <- makeBinTemplate(fileList[5], frq.lim = c(0.3, 1.4), t.lim = c(17, 27), name = "F7,017,-26,H", amp.cutoff = (-26)) 
+template7b <- makeBinTemplate(fileList[7], frq.lim = c(0.2, 1.4), t.lim = c(17, 27), name = "F7,017,-26,H") 
 
-ctemps_adjusted_amp <- combineBinTemplates(template1b, template2b1, template2b2, template3b, template4b1, template4b2, template5b, template8b1, template8b2, template6b, template7b)
+sunwave <- readWave("subset_samples/manual_recording/256.wav")
+templateManual <- makeBinTemplate("subset_samples/manual_recording/256.wav", frq.lim = c(0.2, 1.8), t.lim = c(102, 112), name = "manual", amp.cutoff = (-27))
+
+ctemps_adjusted_amp <- combineBinTemplates(template1b, template2b1, template2b2, template3b, template4b1, template4b2, template5b, template8b1, template8b2, template6b, template7b, templateManual)
 
 
+
+# runs against all files in the 4,200 folder, from 5:45 am to 8:00 am.
+  # (we manually logged detections for only those times)
 
 folderList <- list.files(path = "AutomatedDetection_TestingTemplates/4,200", full.names = TRUE)
 
-outputList <- list.files(path = "AutomatedDetection_TestingTemplates/4,200", full.names = TRUE)
-print(outputList[1])
-
-audioFileList <- list.files(path = outputList[1], full.names = TRUE)
-print(audioFileList[1])
-
-
-
-
 folderCounter = 1
-maxFilesPerFolder = 10   # we need to stop at 8:15 am exclusive
-
+maxFilesPerFolder = 10   # we need to stop at 8:00 am inclusive
 sink(file = "output.txt")
-
 for(folder in folderList) {
   fileCounter = 1
   audioFileList <- list.files(path = folderList[folderCounter], full.names = TRUE)
@@ -150,10 +117,24 @@ for(folder in folderList) {
   }
   folderCounter = folderCounter + 1
 }
-
 sink()
 
 
+
+
+
+
+
+fileList <- list.files(path = "subset_samples/first_howler_neg_template_test", full.names = TRUE)
+for(value in fileList){
+  cscores <- binMatch(value, ctemps_adjusted_amp)
+  print(cscores)
+  # code for showing peaks on plot. will cause loop to not run fully, as plot(cdetects) is interactive.
+  # cdetects <- findPeaks(cscores)
+  # plot(cdetects)
+  # showPeaks(detection.obj = cdetects, which.one = "F1,025,-21,T", point = TRUE, what = "peaks", scorelim = c(5,10))
+  # print(cscores)
+}
 
 
 
@@ -162,20 +143,6 @@ sink()
 # HARPIA_20130220_061500  -- NEGATIVE CASE
 # HARPIA_20130216_060000    -- POSITIVE CASE - TITI MONKEY
 # HARPIA_20140213_060000  -- FALSE POSITIVE CASE - HOWLER MONKEY
-
-# test unadjusted templates
-cscores <- binMatch("subset_samples/basic_test/HARPIA_20130216_054500.wav", ctemps_default_amp) # neg 1
-print(cscores)
-
-cscores <- binMatch("subset_samples/basic_test/HARPIA_20130220_061500.wav", ctemps_default_amp) # neg 2
-print(cscores)
-
-cscores <- binMatch("subset_samples/basic_test/HARPIA_20130216_060000.wav", ctemps_default_amp) # pos 1 
-print(cscores)
-
-cscores <- binMatch("subset_samples/basic_test/HARPIA_20140213_060000.wav", ctemps_default_amp) # false pos 1
-print(cscores)
- 
 
 #test manually adjusted templates
 cscores <- binMatch("subset_samples/basic_test/HARPIA_20130216_054500.wav", ctemps_adjusted_amp) # neg 1
@@ -190,12 +157,18 @@ print(cscores)
 cscores <- binMatch("subset_samples/basic_test/HARPIA_20140213_060000.wav", ctemps_adjusted_amp) # false pos 1
 print(cscores)
 
+
+
+
 # call distance four titi monkeys
 fileList <- list.files(path = "subset_samples/call_distance_four", full.names = TRUE)
 for(value in fileList) {
   cscores <- corMatch(value, ctemps)
   print(cscores)
 }
+
+
+
 
 
 # medium-sized sample -- 15 files. 14 have no detections and 1 file has titi
@@ -208,12 +181,18 @@ for(value in fileList){
 }
 
 
+
+
+
 # howler monkey samples against titi monkey template
 fileList <- list.files(path = "subset_samples/howler_sample", full.names = TRUE)
 for(value in fileList) {
   cscores <- binMatch(value, ctemps)
   print(cscores)
 }
+
+
+
 
 
 # stereo/mono channel experiment. one audio sample -- only right channel is 
@@ -229,6 +208,8 @@ for(value in fileList) {
   cscores2 <- corMatch(mono_channel_wave, ctemps, write.wav=TRUE)
   print(cscores2)
 }
+
+
 
 
 # experiments to think about

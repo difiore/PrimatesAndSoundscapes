@@ -1,0 +1,1688 @@
+[1] "folder 1"
+[1] "    file 1"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/15 feb 2013/HARPIA_20130215_054500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -1.61      0.01    18439
+F2,000,-27,T     -1.76     -0.18    18439
+F2,087,-27,T     -1.92     -0.19    18439
+F3,000,-27,T     -1.80      0.28    18439
+F4,000,-27,T     -1.59      0.72    18439
+F4,030,-27,T     -1.47      0.94    18439
+F5,065,-27,T     -1.46      0.07    18439
+F8,025,-27,T     -1.78     -0.26    18439
+F8,036,-27,T     -1.99     -0.28    18439
+F6,015,-27,H      1.08      4.62    18439
+F7,017,-27,H      0.74      3.66    18439
+F9,102,-27,T     -1.55      0.02    18439
+[1] "    file 2"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/15 feb 2013/HARPIA_20130215_060000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -3.26      1.61    18439
+F2,000,-27,T     -2.76      0.35    18439
+F2,087,-27,T     -3.18      0.42    18439
+F3,000,-27,T     -2.74      1.35    18439
+F4,000,-27,T     -2.55      2.24    18439
+F4,030,-27,T     -2.35      1.95    18439
+F5,065,-27,T     -3.03      0.70    18439
+F8,025,-27,T     -3.56      0.42    18439
+F8,036,-27,T     -2.92      0.09    18439
+F6,015,-27,H      0.62      7.36    18439
+F7,017,-27,H     -0.61      4.90    18439
+F9,102,-27,T     -3.42      1.05    18439
+[1] "    file 3"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/15 feb 2013/HARPIA_20130215_061500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -2.42      3.42    18439
+F2,000,-27,T     -2.72      1.53    18439
+F2,087,-27,T     -2.85      2.06    18439
+F3,000,-27,T     -2.48      2.43    18439
+F4,000,-27,T     -2.82      2.50    18439
+F4,030,-27,T     -2.25      2.96    18439
+F5,065,-27,T     -2.96      2.12    18439
+F8,025,-27,T     -2.59      2.13    18439
+F8,036,-27,T     -2.84      1.69    18439
+F6,015,-27,H     -0.22      6.44    18439
+F7,017,-27,H     -0.46      5.17    18439
+F9,102,-27,T     -2.46      2.78    18439
+[1] "    file 4"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/15 feb 2013/HARPIA_20130215_063000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -2.30      0.85    18439
+F2,000,-27,T     -3.44      0.33    18439
+F2,087,-27,T     -3.67      0.21    18439
+F3,000,-27,T     -3.60      0.65    18439
+F4,000,-27,T     -2.83      1.47    18439
+F4,030,-27,T     -3.11      1.50    18439
+F5,065,-27,T     -3.06      1.00    18439
+F8,025,-27,T     -2.20      0.54    18439
+F8,036,-27,T     -2.31      0.91    18439
+F6,015,-27,H      0.66      4.56    18439
+F7,017,-27,H     -0.58      3.34    18439
+F9,102,-27,T     -3.01      0.74    18439
+[1] "    file 5"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/15 feb 2013/HARPIA_20130215_064500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -2.52      1.03    18439
+F2,000,-27,T     -3.85      0.29    18439
+F2,087,-27,T     -4.00      0.21    18439
+F3,000,-27,T     -4.28      1.16    18439
+F4,000,-27,T     -2.84      1.05    18439
+F4,030,-27,T     -4.05      1.84    18439
+F5,065,-27,T     -3.10     -0.19    18439
+F8,025,-27,T     -2.32      0.21    18439
+F8,036,-27,T     -2.96      0.73    18439
+F6,015,-27,H      1.66      5.90    18439
+F7,017,-27,H     -0.86      4.63    18439
+F9,102,-27,T     -3.30      0.65    18439
+[1] "    file 6"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/15 feb 2013/HARPIA_20130215_070000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -1.79      0.81    18439
+F2,000,-27,T     -1.58      1.22    18439
+F2,087,-27,T     -1.49      1.14    18439
+F3,000,-27,T     -1.18      1.18    18439
+F4,000,-27,T     -1.49      1.31    18439
+F4,030,-27,T     -0.86      1.33    18439
+F5,065,-27,T     -2.08      0.99    18439
+F8,025,-27,T     -2.07      0.88    18439
+F8,036,-27,T     -2.53      0.84    18439
+F6,015,-27,H     -2.24      4.59    18439
+F7,017,-27,H     -1.41      3.74    18439
+F9,102,-27,T     -1.68      1.15    18439
+[1] "    file 7"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/15 feb 2013/HARPIA_20130215_071500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.41      0.85    18439
+F2,000,-27,T     -0.24      1.00    18439
+F2,087,-27,T     -0.26      1.05    18439
+F3,000,-27,T     -0.18      1.03    18439
+F4,000,-27,T     -0.50      1.48    18439
+F4,030,-27,T     -0.29      1.13    18439
+F5,065,-27,T     -0.30      1.09    18439
+F8,025,-27,T     -0.51      0.81    18439
+F8,036,-27,T     -0.51      0.92    18439
+F6,015,-27,H     -1.65      0.17    18439
+F7,017,-27,H     -1.18      0.33    18439
+F9,102,-27,T     -0.34      1.12    18439
+[1] "    file 8"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/15 feb 2013/HARPIA_20130215_073000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.84      0.91    18439
+F2,000,-27,T     -1.38      0.94    18439
+F2,087,-27,T     -1.58      0.95    18439
+F3,000,-27,T     -1.29      0.92    18439
+F4,000,-27,T     -1.08      1.17    18439
+F4,030,-27,T     -0.81      0.97    18439
+F5,065,-27,T     -1.25      1.05    18439
+F8,025,-27,T     -0.92      0.90    18439
+F8,036,-27,T     -0.88      0.86    18439
+F6,015,-27,H     -1.53      3.39    18439
+F7,017,-27,H     -1.03      1.81    18439
+F9,102,-27,T     -1.50      1.07    18439
+[1] "    file 9"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/15 feb 2013/HARPIA_20130215_074500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.76      1.06    18439
+F2,000,-27,T     -0.54      1.13    18439
+F2,087,-27,T     -0.55      1.12    18439
+F3,000,-27,T     -0.54      1.06    18439
+F4,000,-27,T     -1.22      1.37    18439
+F4,030,-27,T     -0.82      1.47    18439
+F5,065,-27,T     -0.82      1.19    18439
+F8,025,-27,T     -0.78      0.91    18439
+F8,036,-27,T     -0.70      0.75    18439
+F6,015,-27,H     -1.50      0.50    18439
+F7,017,-27,H     -1.06      0.81    18439
+F9,102,-27,T     -0.71      1.28    18439
+[1] "    file 10"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/15 feb 2013/HARPIA_20130215_080000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -1.44      2.02    18439
+F2,000,-27,T     -1.04      1.45    18439
+F2,087,-27,T     -1.36      1.40    18439
+F3,000,-27,T     -1.03      1.24    18439
+F4,000,-27,T     -2.05      1.54    18439
+F4,030,-27,T     -1.39      1.26    18439
+F5,065,-27,T     -1.96      1.50    18439
+F8,025,-27,T     -1.36      1.81    18439
+F8,036,-27,T     -1.24      2.25    18439
+F6,015,-27,H     -1.39      3.88    18439
+F7,017,-27,H     -1.78      2.56    18439
+F9,102,-27,T     -1.31      1.74    18439
+[1] "folder 2"
+[1] "    file 1"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/16 feb 2013/HARPIA_20130216_054500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.84      0.75    18439
+F2,000,-27,T     -0.77      0.61    18439
+F2,087,-27,T     -0.67      0.63    18439
+F3,000,-27,T     -0.72      0.74    18439
+F4,000,-27,T     -1.07      1.13    18439
+F4,030,-27,T     -0.84      0.77    18439
+F5,065,-27,T     -0.70      0.79    18439
+F8,025,-27,T     -0.77      0.81    18439
+F8,036,-27,T     -0.78      0.58    18439
+F6,015,-27,H     -0.81      0.78    18439
+F7,017,-27,H     -0.74      0.97    18439
+F9,102,-27,T     -0.85      0.90    18439
+[1] "    file 2"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/16 feb 2013/HARPIA_20130216_060000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -1.15      5.12    18439
+F2,000,-27,T     -1.23      5.86    18439
+F2,087,-27,T     -1.17      6.68    18439
+F3,000,-27,T     -1.13      5.96    18439
+F4,000,-27,T     -1.20      5.11    18439
+F4,030,-27,T     -1.03      5.49    18439
+F5,065,-27,T     -0.87      4.12    18439
+F8,025,-27,T     -1.11      4.50    18439
+F8,036,-27,T     -1.10      4.16    18439
+F6,015,-27,H     -2.84      1.96    18439
+F7,017,-27,H     -1.55      2.24    18439
+F9,102,-27,T     -1.29      5.11    18439
+[1] "    file 3"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/16 feb 2013/HARPIA_20130216_061500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -1.22      0.68    18439
+F2,000,-27,T     -1.28      0.29    18439
+F2,087,-27,T     -1.24      0.23    18439
+F3,000,-27,T     -1.46      0.37    18439
+F4,000,-27,T     -1.31      0.68    18439
+F4,030,-27,T     -1.24      0.70    18439
+F5,065,-27,T     -0.92      0.56    18439
+F8,025,-27,T     -1.08      0.53    18439
+F8,036,-27,T     -1.04      0.33    18439
+F6,015,-27,H      0.17      1.94    18439
+F7,017,-27,H     -0.06      1.67    18439
+F9,102,-27,T     -1.28      0.53    18439
+[1] "    file 4"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/16 feb 2013/HARPIA_20130216_063000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -1.56      0.70    18439
+F2,000,-27,T     -1.17      0.40    18439
+F2,087,-27,T     -1.44      0.46    18439
+F3,000,-27,T     -1.12      0.47    18439
+F4,000,-27,T     -1.21      0.88    18439
+F4,030,-27,T     -1.05      0.69    18439
+F5,065,-27,T     -0.95      0.69    18439
+F8,025,-27,T     -1.28      0.52    18439
+F8,036,-27,T     -1.17      0.50    18439
+F6,015,-27,H     -0.80      2.73    18439
+F7,017,-27,H     -0.90      1.93    18439
+F9,102,-27,T     -1.16      0.93    18439
+[1] "    file 5"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/16 feb 2013/HARPIA_20130216_064500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.71      1.02    18439
+F2,000,-27,T     -0.79      1.52    18439
+F2,087,-27,T     -0.88      1.46    18439
+F3,000,-27,T     -0.79      1.44    18439
+F4,000,-27,T     -1.21      1.33    18439
+F4,030,-27,T     -0.81      0.88    18439
+F5,065,-27,T     -0.80      1.32    18439
+F8,025,-27,T     -0.72      1.14    18439
+F8,036,-27,T     -0.76      1.21    18439
+F6,015,-27,H     -2.92      1.60    18439
+F7,017,-27,H     -1.84      1.15    18439
+F9,102,-27,T     -0.80      1.32    18439
+[1] "    file 6"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/16 feb 2013/HARPIA_20130216_070000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.48      0.86    18439
+F2,000,-27,T     -0.18      0.96    18439
+F2,087,-27,T     -0.17      1.02    18439
+F3,000,-27,T     -0.14      0.94    18439
+F4,000,-27,T     -0.59      1.35    18439
+F4,030,-27,T     -0.38      0.97    18439
+F5,065,-27,T     -0.20      1.23    18439
+F8,025,-27,T     -0.46      0.93    18439
+F8,036,-27,T     -0.45      0.81    18439
+F6,015,-27,H     -1.80     -0.27    18439
+F7,017,-27,H     -1.24      0.12    18439
+F9,102,-27,T     -0.29      1.29    18439
+[1] "    file 7"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/16 feb 2013/HARPIA_20130216_071500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.38      0.83    18439
+F2,000,-27,T     -0.26      1.06    18439
+F2,087,-27,T     -0.12      1.08    18439
+F3,000,-27,T     -0.18      0.89    18439
+F4,000,-27,T     -0.43      1.22    18439
+F4,030,-27,T     -0.36      0.90    18439
+F5,065,-27,T     -0.21      1.03    18439
+F8,025,-27,T     -0.38      0.82    18439
+F8,036,-27,T     -0.39      0.87    18439
+F6,015,-27,H     -1.68     -0.36    18439
+F7,017,-27,H     -1.10      0.11    18439
+F9,102,-27,T     -0.44      1.10    18439
+[1] "    file 8"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/16 feb 2013/HARPIA_20130216_073000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.35      0.94    18439
+F2,000,-27,T     -0.17      0.93    18439
+F2,087,-27,T     -0.20      0.96    18439
+F3,000,-27,T     -0.17      0.88    18439
+F4,000,-27,T     -0.66      1.33    18439
+F4,030,-27,T     -0.41      0.91    18439
+F5,065,-27,T     -0.29      1.00    18439
+F8,025,-27,T     -0.33      0.84    18439
+F8,036,-27,T     -0.44      0.85    18439
+F6,015,-27,H     -1.76     -0.42    18439
+F7,017,-27,H     -1.16      0.18    18439
+F9,102,-27,T     -0.37      1.19    18439
+[1] "    file 9"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/16 feb 2013/HARPIA_20130216_074500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.43      0.86    18439
+F2,000,-27,T     -0.32      0.94    18439
+F2,087,-27,T     -0.33      0.93    18439
+F3,000,-27,T     -0.25      0.91    18439
+F4,000,-27,T     -0.67      1.10    18439
+F4,030,-27,T     -0.54      0.94    18439
+F5,065,-27,T     -0.50      0.94    18439
+F8,025,-27,T     -0.39      0.80    18439
+F8,036,-27,T     -0.54      0.73    18439
+F6,015,-27,H     -1.64      0.04    18439
+F7,017,-27,H     -1.14      0.43    18439
+F9,102,-27,T     -0.41      1.07    18439
+[1] "    file 10"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/16 feb 2013/HARPIA_20130216_080000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.44      0.75    18439
+F2,000,-27,T     -0.15      0.94    18439
+F2,087,-27,T     -0.11      1.06    18439
+F3,000,-27,T     -0.19      0.93    18439
+F4,000,-27,T     -0.47      1.23    18439
+F4,030,-27,T     -0.28      1.08    18439
+F5,065,-27,T     -0.24      0.98    18439
+F8,025,-27,T     -0.36      0.70    18439
+F8,036,-27,T     -0.37      0.71    18439
+F6,015,-27,H     -1.81     -0.32    18439
+F7,017,-27,H     -1.16      0.15    18439
+F9,102,-27,T     -0.28      1.02    18439
+[1] "folder 3"
+[1] "    file 1"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/17 feb 2013/HARPIA_20130217_054500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.98      0.88    18439
+F2,000,-27,T     -1.09      0.34    18439
+F2,087,-27,T     -1.04      0.36    18439
+F3,000,-27,T     -0.93      0.44    18439
+F4,000,-27,T     -1.19      0.96    18439
+F4,030,-27,T     -0.98      0.83    18439
+F5,065,-27,T     -0.98      0.60    18439
+F8,025,-27,T     -0.98      0.54    18439
+F8,036,-27,T     -1.07      0.50    18439
+F6,015,-27,H     -0.04      2.06    18439
+F7,017,-27,H     -0.16      1.71    18439
+F9,102,-27,T     -1.24      0.57    18439
+[1] "    file 2"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/17 feb 2013/HARPIA_20130217_060000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -1.57      0.58    18439
+F2,000,-27,T     -1.41      0.43    18439
+F2,087,-27,T     -1.60      0.25    18439
+F3,000,-27,T     -1.45      0.19    18439
+F4,000,-27,T     -1.47      0.71    18439
+F4,030,-27,T     -1.11      0.79    18439
+F5,065,-27,T     -1.49      0.67    18439
+F8,025,-27,T     -1.27      0.56    18439
+F8,036,-27,T     -1.34      0.51    18439
+F6,015,-27,H      0.29      2.93    18439
+F7,017,-27,H     -0.36      1.98    18439
+F9,102,-27,T     -1.40      0.47    18439
+[1] "    file 3"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/17 feb 2013/HARPIA_20130217_061500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -1.68      0.51    18439
+F2,000,-27,T     -1.68      0.21    18439
+F2,087,-27,T     -1.71      0.24    18439
+F3,000,-27,T     -1.82      0.22    18439
+F4,000,-27,T     -1.28      1.15    18439
+F4,030,-27,T     -1.56      0.70    18439
+F5,065,-27,T     -1.12      0.73    18439
+F8,025,-27,T     -1.67      0.42    18439
+F8,036,-27,T     -1.46      0.48    18439
+F6,015,-27,H      0.52      3.09    18439
+F7,017,-27,H     -0.01      2.24    18439
+F9,102,-27,T     -1.57      0.43    18439
+[1] "    file 4"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/17 feb 2013/HARPIA_20130217_063000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -1.10      0.80    18439
+F2,000,-27,T     -2.09      0.33    18439
+F2,087,-27,T     -1.82      0.53    18439
+F3,000,-27,T     -1.76      0.66    18439
+F4,000,-27,T     -1.63      1.10    18439
+F4,030,-27,T     -1.19      1.36    18439
+F5,065,-27,T     -1.20      0.68    18439
+F8,025,-27,T     -1.15      0.57    18439
+F8,036,-27,T     -1.23      0.42    18439
+F6,015,-27,H      0.94      3.11    18439
+F7,017,-27,H      0.38      2.37    18439
+F9,102,-27,T     -1.71      0.53    18439
+[1] "    file 5"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/17 feb 2013/HARPIA_20130217_064500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -1.06      0.70    18439
+F2,000,-27,T     -1.51      0.26    18439
+F2,087,-27,T     -1.46      0.33    18439
+F3,000,-27,T     -1.27      0.40    18439
+F4,000,-27,T     -1.63      1.17    18439
+F4,030,-27,T     -0.92      1.47    18439
+F5,065,-27,T     -1.37      0.61    18439
+F8,025,-27,T     -1.12      0.65    18439
+F8,036,-27,T     -1.17      0.41    18439
+F6,015,-27,H      0.39      3.19    18439
+F7,017,-27,H      0.56      2.38    18439
+F9,102,-27,T     -1.49      0.52    18439
+[1] "    file 6"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/17 feb 2013/HARPIA_20130217_070000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -1.37      3.31    18439
+F2,000,-27,T     -1.88      3.18    18439
+F2,087,-27,T     -1.78      3.58    18439
+F3,000,-27,T     -1.70      3.48    18439
+F4,000,-27,T     -1.76      1.68    18439
+F4,030,-27,T     -1.25      2.88    18439
+F5,065,-27,T     -1.57      1.67    18439
+F8,025,-27,T     -1.24      2.78    18439
+F8,036,-27,T     -1.21      2.22    18439
+F6,015,-27,H      0.12      3.86    18439
+F7,017,-27,H     -0.52      2.73    18439
+F9,102,-27,T     -1.90      2.68    18439
+[1] "    file 7"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/17 feb 2013/HARPIA_20130217_071500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -1.03      1.32    18439
+F2,000,-27,T     -1.01      0.94    18439
+F2,087,-27,T     -0.93      1.14    18439
+F3,000,-27,T     -0.88      1.22    18439
+F4,000,-27,T     -1.30      0.86    18439
+F4,030,-27,T     -0.85      1.16    18439
+F5,065,-27,T     -1.09      0.92    18439
+F8,025,-27,T     -0.97      1.03    18439
+F8,036,-27,T     -0.89      0.91    18439
+F6,015,-27,H     -0.72      2.16    18439
+F7,017,-27,H     -0.68      1.67    18439
+F9,102,-27,T     -1.08      1.10    18439
+[1] "    file 8"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/17 feb 2013/HARPIA_20130217_073000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.94      0.76    18439
+F2,000,-27,T     -1.11      0.70    18439
+F2,087,-27,T     -1.05      0.70    18439
+F3,000,-27,T     -0.88      0.56    18439
+F4,000,-27,T     -1.27      0.85    18439
+F4,030,-27,T     -0.75      0.76    18439
+F5,065,-27,T     -1.22      0.73    18439
+F8,025,-27,T     -0.92      0.77    18439
+F8,036,-27,T     -0.84      0.73    18439
+F6,015,-27,H     -0.62      1.93    18439
+F7,017,-27,H     -0.52      1.46    18439
+F9,102,-27,T     -1.16      0.72    18439
+[1] "    file 9"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/17 feb 2013/HARPIA_20130217_074500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -1.86      0.60    18439
+F2,000,-27,T     -1.50      0.22    18439
+F2,087,-27,T     -1.76      0.27    18439
+F3,000,-27,T     -1.82      0.37    18439
+F4,000,-27,T     -1.65      2.08    18439
+F4,030,-27,T     -1.35      1.89    18439
+F5,065,-27,T     -1.35      0.87    18439
+F8,025,-27,T     -1.63      0.55    18439
+F8,036,-27,T     -1.80      0.37    18439
+F6,015,-27,H     -0.82      2.16    18439
+F7,017,-27,H     -0.28      1.61    18439
+F9,102,-27,T     -1.52      0.49    18439
+[1] "    file 10"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/17 feb 2013/HARPIA_20130217_080000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -1.42      2.01    18439
+F2,000,-27,T     -1.31      1.19    18439
+F2,087,-27,T     -1.29      1.32    18439
+F3,000,-27,T     -1.03      1.25    18439
+F4,000,-27,T     -1.59      2.08    18439
+F4,030,-27,T     -1.50      2.19    18439
+F5,065,-27,T     -1.71      1.47    18439
+F8,025,-27,T     -1.23      1.75    18439
+F8,036,-27,T     -1.05      1.36    18439
+F6,015,-27,H     -0.88      2.65    18439
+F7,017,-27,H     -0.53      2.83    18439
+F9,102,-27,T     -1.53      1.83    18439
+[1] "folder 4"
+[1] "    file 1"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/18 feb 2013/HARPIA_20130218_054500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.42      0.98    18439
+F2,000,-27,T     -0.26      0.90    18439
+F2,087,-27,T     -0.19      0.94    18439
+F3,000,-27,T     -0.20      0.91    18439
+F4,000,-27,T     -0.60      1.35    18439
+F4,030,-27,T     -0.45      0.92    18439
+F5,065,-27,T     -0.32      1.16    18439
+F8,025,-27,T     -0.42      0.89    18439
+F8,036,-27,T     -0.40      0.91    18439
+F6,015,-27,H     -1.84     -0.30    18439
+F7,017,-27,H     -1.33      0.13    18439
+F9,102,-27,T     -0.38      1.10    18439
+[1] "    file 2"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/18 feb 2013/HARPIA_20130218_060000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.46      0.79    18439
+F2,000,-27,T     -0.31      0.79    18439
+F2,087,-27,T     -0.41      0.96    18439
+F3,000,-27,T     -0.26      0.82    18439
+F4,000,-27,T     -0.88      1.28    18439
+F4,030,-27,T     -0.49      0.81    18439
+F5,065,-27,T     -0.39      1.06    18439
+F8,025,-27,T     -0.39      0.75    18439
+F8,036,-27,T     -0.39      0.78    18439
+F6,015,-27,H     -1.69     -0.17    18439
+F7,017,-27,H     -1.06      0.29    18439
+F9,102,-27,T     -0.46      0.97    18439
+[1] "    file 3"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/18 feb 2013/HARPIA_20130218_061500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.41      0.86    18439
+F2,000,-27,T     -0.50      0.81    18439
+F2,087,-27,T     -0.39      0.84    18439
+F3,000,-27,T     -0.36      0.78    18439
+F4,000,-27,T     -0.71      1.28    18439
+F4,030,-27,T     -0.57      0.91    18439
+F5,065,-27,T     -0.55      0.94    18439
+F8,025,-27,T     -0.45      0.85    18439
+F8,036,-27,T     -0.48      0.76    18439
+F6,015,-27,H     -1.42      0.03    18439
+F7,017,-27,H     -1.06      0.36    18439
+F9,102,-27,T     -0.57      0.94    18439
+[1] "    file 4"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/18 feb 2013/HARPIA_20130218_063000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.55      0.82    18439
+F2,000,-27,T     -0.36      0.88    18439
+F2,087,-27,T     -0.37      0.79    18439
+F3,000,-27,T     -0.37      0.79    18439
+F4,000,-27,T     -0.64      1.19    18439
+F4,030,-27,T     -0.62      0.88    18439
+F5,065,-27,T     -0.41      0.93    18439
+F8,025,-27,T     -0.56      0.90    18439
+F8,036,-27,T     -0.47      0.77    18439
+F6,015,-27,H     -1.38      0.22    18439
+F7,017,-27,H     -0.99      0.40    18439
+F9,102,-27,T     -0.64      1.07    18439
+[1] "    file 5"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/18 feb 2013/HARPIA_20130218_064500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.46      1.75    18439
+F2,000,-27,T     -0.33      1.45    18439
+F2,087,-27,T     -0.29      1.63    18439
+F3,000,-27,T     -0.41      1.27    18439
+F4,000,-27,T     -0.54      2.01    18439
+F4,030,-27,T     -0.99      1.36    18439
+F5,065,-27,T     -0.23      1.68    18439
+F8,025,-27,T     -0.45      1.69    18439
+F8,036,-27,T     -0.21      1.91    18439
+F6,015,-27,H     -2.51     -0.57    18439
+F7,017,-27,H     -1.82      0.39    18439
+F9,102,-27,T     -0.63      1.87    18439
+[1] "    file 6"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/18 feb 2013/HARPIA_20130218_070000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.65      2.50    18439
+F2,000,-27,T     -0.70      2.13    18439
+F2,087,-27,T     -0.97      2.20    18439
+F3,000,-27,T     -1.32      1.90    18439
+F4,000,-27,T     -0.88      2.07    18439
+F4,030,-27,T     -2.64      1.15    18439
+F5,065,-27,T     -0.59      2.52    18439
+F8,025,-27,T     -0.56      2.55    18439
+F8,036,-27,T     -0.60      2.92    18439
+F6,015,-27,H     -3.18      0.00    18439
+F7,017,-27,H     -2.97      0.49    18439
+F9,102,-27,T     -0.84      2.62    18439
+[1] "    file 7"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/18 feb 2013/HARPIA_20130218_071500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.85      1.41    18439
+F2,000,-27,T     -0.46      1.08    18439
+F2,087,-27,T     -0.45      0.89    18439
+F3,000,-27,T     -0.55      0.93    18439
+F4,000,-27,T     -0.89      1.21    18439
+F4,030,-27,T     -0.72      0.94    18439
+F5,065,-27,T     -0.78      1.17    18439
+F8,025,-27,T     -0.76      1.18    18439
+F8,036,-27,T     -0.61      0.95    18439
+F6,015,-27,H     -1.69      0.15    18439
+F7,017,-27,H     -1.35      0.50    18439
+F9,102,-27,T     -0.60      1.45    18439
+[1] "    file 8"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/18 feb 2013/HARPIA_20130218_073000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -1.46      1.37    18439
+F2,000,-27,T     -0.70      1.30    18439
+F2,087,-27,T     -1.00      1.11    18439
+F3,000,-27,T     -1.21      1.06    18439
+F4,000,-27,T     -1.38      1.36    18439
+F4,030,-27,T     -2.65      1.03    18439
+F5,065,-27,T     -0.77      1.41    18439
+F8,025,-27,T     -0.93      1.34    18439
+F8,036,-27,T     -0.90      2.03    18439
+F6,015,-27,H     -1.72      0.27    18439
+F7,017,-27,H     -2.13      0.59    18439
+F9,102,-27,T     -1.13      1.95    18439
+[1] "    file 9"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/18 feb 2013/HARPIA_20130218_074500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.83      1.68    18439
+F2,000,-27,T     -0.87      1.15    18439
+F2,087,-27,T     -0.85      1.27    18439
+F3,000,-27,T     -0.83      1.08    18439
+F4,000,-27,T     -1.21      1.54    18439
+F4,030,-27,T     -1.39      0.91    18439
+F5,065,-27,T     -0.91      1.45    18439
+F8,025,-27,T     -0.71      1.58    18439
+F8,036,-27,T     -0.84      1.91    18439
+F6,015,-27,H     -1.78      0.81    18439
+F7,017,-27,H     -1.74      0.88    18439
+F9,102,-27,T     -1.00      1.73    18439
+[1] "    file 10"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/18 feb 2013/HARPIA_20130218_080000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.84      1.05    18439
+F2,000,-27,T     -0.79      0.69    18439
+F2,087,-27,T     -0.84      0.92    18439
+F3,000,-27,T     -0.68      0.84    18439
+F4,000,-27,T     -1.06      0.97    18439
+F4,030,-27,T     -0.81      0.89    18439
+F5,065,-27,T     -0.86      0.99    18439
+F8,025,-27,T     -0.83      1.01    18439
+F8,036,-27,T     -0.76      0.76    18439
+F6,015,-27,H     -1.09      1.34    18439
+F7,017,-27,H     -0.69      1.08    18439
+F9,102,-27,T     -0.94      1.16    18439
+[1] "folder 5"
+[1] "    file 1"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/19 feb 2013/HARPIA_20130219_054500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.88      1.41    18439
+F2,000,-27,T     -1.04      1.17    18439
+F2,087,-27,T     -0.86      1.17    18439
+F3,000,-27,T     -1.40      1.23    18439
+F4,000,-27,T     -1.35      1.73    18439
+F4,030,-27,T     -1.09      1.33    18439
+F5,065,-27,T     -1.27      1.56    18439
+F8,025,-27,T     -0.90      1.25    18439
+F8,036,-27,T     -1.15      1.08    18439
+F6,015,-27,H     -1.03      1.58    18439
+F7,017,-27,H     -1.23      1.41    18439
+F9,102,-27,T     -1.07      1.71    18439
+[1] "    file 2"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/19 feb 2013/HARPIA_20130219_060000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -1.14      4.37    18439
+F2,000,-27,T     -1.36      3.91    18439
+F2,087,-27,T     -1.15      5.07    18439
+F3,000,-27,T     -1.52      4.41    18439
+F4,000,-27,T     -1.46      5.21    18439
+F4,030,-27,T     -1.32      5.63    18439
+F5,065,-27,T     -1.33      4.76    18439
+F8,025,-27,T     -1.00      4.08    18439
+F8,036,-27,T     -1.34      3.21    18439
+F6,015,-27,H     -3.05      1.95    18439
+F7,017,-27,H     -1.04      1.71    18439
+F9,102,-27,T     -1.40      4.20    18439
+[1] "    file 3"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/19 feb 2013/HARPIA_20130219_061500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -1.18      0.57    18439
+F2,000,-27,T     -1.22      0.32    18439
+F2,087,-27,T     -1.21      0.36    18439
+F3,000,-27,T     -1.15      0.37    18439
+F4,000,-27,T     -1.36      0.89    18439
+F4,030,-27,T     -1.20      0.56    18439
+F5,065,-27,T     -1.08      0.61    18439
+F8,025,-27,T     -1.05      0.48    18439
+F8,036,-27,T     -1.04      0.47    18439
+F6,015,-27,H      0.08      2.48    18439
+F7,017,-27,H     -0.06      1.79    18439
+F9,102,-27,T     -1.16      0.59    18439
+[1] "    file 4"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/19 feb 2013/HARPIA_20130219_063000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -1.38      0.53    18439
+F2,000,-27,T     -1.61      0.50    18439
+F2,087,-27,T     -1.47      0.53    18439
+F3,000,-27,T     -1.56      0.49    18439
+F4,000,-27,T     -1.18      0.76    18439
+F4,030,-27,T     -1.39      0.54    18439
+F5,065,-27,T     -1.03      0.65    18439
+F8,025,-27,T     -1.00      0.47    18439
+F8,036,-27,T     -0.93      0.73    18439
+F6,015,-27,H     -0.26      1.84    18439
+F7,017,-27,H     -0.61      1.57    18439
+F9,102,-27,T     -1.31      0.77    18439
+[1] "    file 5"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/19 feb 2013/HARPIA_20130219_064500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -1.15      0.55    18439
+F2,000,-27,T     -1.08      0.96    18439
+F2,087,-27,T     -1.21      0.87    18439
+F3,000,-27,T     -1.15      0.73    18439
+F4,000,-27,T     -1.32      0.92    18439
+F4,030,-27,T     -1.01      0.84    18439
+F5,065,-27,T     -1.02      0.68    18439
+F8,025,-27,T     -1.13      0.65    18439
+F8,036,-27,T     -1.17      0.62    18439
+F6,015,-27,H      0.60      2.26    18439
+F7,017,-27,H     -0.17      1.79    18439
+F9,102,-27,T     -1.30      0.80    18439
+[1] "    file 6"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/19 feb 2013/HARPIA_20130219_070000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.88      0.75    18439
+F2,000,-27,T     -0.74      0.58    18439
+F2,087,-27,T     -0.79      0.59    18439
+F3,000,-27,T     -0.87      0.64    18439
+F4,000,-27,T     -1.15      1.26    18439
+F4,030,-27,T     -0.91      0.85    18439
+F5,065,-27,T     -0.87      0.73    18439
+F8,025,-27,T     -0.90      0.66    18439
+F8,036,-27,T     -0.99      0.60    18439
+F6,015,-27,H     -0.40      1.20    18439
+F7,017,-27,H     -0.64      1.28    18439
+F9,102,-27,T     -0.89      0.88    18439
+[1] "    file 7"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/19 feb 2013/HARPIA_20130219_071500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.90      0.86    18439
+F2,000,-27,T     -0.84      1.07    18439
+F2,087,-27,T     -0.74      1.01    18439
+F3,000,-27,T     -0.75      0.91    18439
+F4,000,-27,T     -1.18      1.20    18439
+F4,030,-27,T     -0.93      0.78    18439
+F5,065,-27,T     -0.72      0.99    18439
+F8,025,-27,T     -0.73      0.92    18439
+F8,036,-27,T     -0.80      1.16    18439
+F6,015,-27,H     -2.15      1.15    18439
+F7,017,-27,H     -1.66      1.37    18439
+F9,102,-27,T     -0.90      1.15    18439
+[1] "    file 8"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/19 feb 2013/HARPIA_20130219_073000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.49      0.88    18439
+F2,000,-27,T     -0.26      0.88    18439
+F2,087,-27,T     -0.21      1.01    18439
+F3,000,-27,T     -0.40      0.86    18439
+F4,000,-27,T     -0.72      1.25    18439
+F4,030,-27,T     -0.56      1.05    18439
+F5,065,-27,T     -0.54      1.00    18439
+F8,025,-27,T     -0.40      0.88    18439
+F8,036,-27,T     -0.57      0.77    18439
+F6,015,-27,H     -1.58     -0.19    18439
+F7,017,-27,H     -1.14      0.20    18439
+F9,102,-27,T     -0.42      1.16    18439
+[1] "    file 9"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/19 feb 2013/HARPIA_20130219_074500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.45      0.83    18439
+F2,000,-27,T     -0.32      0.88    18439
+F2,087,-27,T     -0.23      1.01    18439
+F3,000,-27,T     -0.27      0.91    18439
+F4,000,-27,T     -0.60      1.25    18439
+F4,030,-27,T     -0.75      0.85    18439
+F5,065,-27,T     -0.35      0.98    18439
+F8,025,-27,T     -0.42      0.80    18439
+F8,036,-27,T     -0.49      0.92    18439
+F6,015,-27,H     -1.62     -0.19    18439
+F7,017,-27,H     -1.23      0.25    18439
+F9,102,-27,T     -0.41      1.00    18439
+[1] "    file 10"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/19 feb 2013/HARPIA_20130219_080000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.37      0.79    18439
+F2,000,-27,T     -0.27      0.91    18439
+F2,087,-27,T     -0.26      0.94    18439
+F3,000,-27,T     -0.27      0.88    18439
+F4,000,-27,T     -0.56      1.22    18439
+F4,030,-27,T     -0.49      0.87    18439
+F5,065,-27,T     -0.22      1.00    18439
+F8,025,-27,T     -0.37      0.78    18439
+F8,036,-27,T     -0.44      0.75    18439
+F6,015,-27,H     -1.70     -0.15    18439
+F7,017,-27,H     -1.10      0.22    18439
+F9,102,-27,T     -0.32      1.03    18439
+[1] "folder 6"
+[1] "    file 1"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/20 feb 2013/HARPIA_20130220_054500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.45      0.97    18439
+F2,000,-27,T     -0.28      0.94    18439
+F2,087,-27,T     -0.20      1.01    18439
+F3,000,-27,T     -0.22      0.82    18439
+F4,000,-27,T     -0.59      1.20    18439
+F4,030,-27,T     -0.55      0.88    18439
+F5,065,-27,T     -0.34      1.00    18439
+F8,025,-27,T     -0.36      0.96    18439
+F8,036,-27,T     -0.39      0.90    18439
+F6,015,-27,H     -1.91     -0.28    18439
+F7,017,-27,H     -1.41      0.28    18439
+F9,102,-27,T     -0.51      1.11    18439
+[1] "    file 2"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/20 feb 2013/HARPIA_20130220_060000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.52      0.85    18439
+F2,000,-27,T     -0.29      0.90    18439
+F2,087,-27,T     -0.29      0.93    18439
+F3,000,-27,T     -0.32      0.86    18439
+F4,000,-27,T     -0.61      1.14    18439
+F4,030,-27,T     -0.49      0.87    18439
+F5,065,-27,T     -0.34      1.06    18439
+F8,025,-27,T     -0.41      0.86    18439
+F8,036,-27,T     -0.37      0.75    18439
+F6,015,-27,H     -1.78     -0.04    18439
+F7,017,-27,H     -1.23      0.19    18439
+F9,102,-27,T     -0.53      1.08    18439
+[1] "    file 3"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/20 feb 2013/HARPIA_20130220_061500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.57      0.80    18439
+F2,000,-27,T     -0.23      0.88    18439
+F2,087,-27,T     -0.24      0.92    18439
+F3,000,-27,T     -0.27      0.78    18439
+F4,000,-27,T     -0.58      1.14    18439
+F4,030,-27,T     -0.50      0.84    18439
+F5,065,-27,T     -0.30      1.10    18439
+F8,025,-27,T     -0.42      0.89    18439
+F8,036,-27,T     -0.51      0.79    18439
+F6,015,-27,H     -1.55     -0.18    18439
+F7,017,-27,H     -1.15      0.31    18439
+F9,102,-27,T     -0.42      0.97    18439
+[1] "    file 4"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/20 feb 2013/HARPIA_20130220_063000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.53      0.91    18439
+F2,000,-27,T     -0.22      0.86    18439
+F2,087,-27,T     -0.26      0.92    18439
+F3,000,-27,T     -0.28      0.80    18439
+F4,000,-27,T     -0.65      1.41    18439
+F4,030,-27,T     -0.53      0.78    18439
+F5,065,-27,T     -0.38      0.98    18439
+F8,025,-27,T     -0.46      0.76    18439
+F8,036,-27,T     -0.48      0.86    18439
+F6,015,-27,H     -1.60     -0.09    18439
+F7,017,-27,H     -1.14      0.32    18439
+F9,102,-27,T     -0.42      1.17    18439
+[1] "    file 5"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/20 feb 2013/HARPIA_20130220_064500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.47      0.86    18439
+F2,000,-27,T     -0.30      0.86    18439
+F2,087,-27,T     -0.25      0.91    18439
+F3,000,-27,T     -0.34      0.74    18439
+F4,000,-27,T     -0.63      1.08    18439
+F4,030,-27,T     -0.64      0.72    18439
+F5,065,-27,T     -0.42      0.94    18439
+F8,025,-27,T     -0.42      0.80    18439
+F8,036,-27,T     -0.51      0.88    18439
+F6,015,-27,H     -1.60     -0.07    18439
+F7,017,-27,H     -1.12      0.18    18439
+F9,102,-27,T     -0.53      1.10    18439
+[1] "    file 6"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/20 feb 2013/HARPIA_20130220_070000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.76      0.93    18439
+F2,000,-27,T     -0.34      0.99    18439
+F2,087,-27,T     -0.31      0.91    18439
+F3,000,-27,T     -0.46      0.91    18439
+F4,000,-27,T     -0.80      1.35    18439
+F4,030,-27,T     -0.72      0.88    18439
+F5,065,-27,T     -0.50      1.12    18439
+F8,025,-27,T     -0.67      0.88    18439
+F8,036,-27,T     -0.49      0.81    18439
+F6,015,-27,H     -1.61     -0.13    18439
+F7,017,-27,H     -1.26      0.42    18439
+F9,102,-27,T     -0.50      1.05    18439
+[1] "    file 7"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/20 feb 2013/HARPIA_20130220_071500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.48      1.00    18439
+F2,000,-27,T     -0.33      0.87    18439
+F2,087,-27,T     -0.31      1.00    18439
+F3,000,-27,T     -0.43      0.78    18439
+F4,000,-27,T     -0.74      1.25    18439
+F4,030,-27,T     -0.79      0.91    18439
+F5,065,-27,T     -0.35      0.99    18439
+F8,025,-27,T     -0.44      1.05    18439
+F8,036,-27,T     -0.41      1.11    18439
+F6,015,-27,H     -2.21     -0.05    18439
+F7,017,-27,H     -1.47      0.34    18439
+F9,102,-27,T     -0.47      1.10    18439
+[1] "    file 8"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/20 feb 2013/HARPIA_20130220_073000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.57      0.88    18439
+F2,000,-27,T     -0.42      0.83    18439
+F2,087,-27,T     -0.31      0.95    18439
+F3,000,-27,T     -0.47      0.86    18439
+F4,000,-27,T     -0.71      1.25    18439
+F4,030,-27,T     -0.82      0.81    18439
+F5,065,-27,T     -0.43      1.13    18439
+F8,025,-27,T     -0.46      0.80    18439
+F8,036,-27,T     -0.43      0.80    18439
+F6,015,-27,H     -1.63     -0.12    18439
+F7,017,-27,H     -1.16      0.33    18439
+F9,102,-27,T     -0.51      1.04    18439
+[1] "    file 9"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/20 feb 2013/HARPIA_20130220_074500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.53      0.88    18439
+F2,000,-27,T     -0.31      0.88    18439
+F2,087,-27,T     -0.37      0.83    18439
+F3,000,-27,T     -0.35      0.82    18439
+F4,000,-27,T     -0.60      1.24    18439
+F4,030,-27,T     -0.70      0.93    18439
+F5,065,-27,T     -0.50      1.00    18439
+F8,025,-27,T     -0.43      0.90    18439
+F8,036,-27,T     -0.57      0.82    18439
+F6,015,-27,H     -1.80     -0.04    18439
+F7,017,-27,H     -1.31      0.22    18439
+F9,102,-27,T     -0.53      1.13    18439
+[1] "    file 10"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/20 feb 2013/HARPIA_20130220_080000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.52      0.94    18439
+F2,000,-27,T     -0.36      0.89    18439
+F2,087,-27,T     -0.30      0.88    18439
+F3,000,-27,T     -0.44      0.86    18439
+F4,000,-27,T     -0.71      1.27    18439
+F4,030,-27,T     -0.60      0.83    18439
+F5,065,-27,T     -0.36      1.05    18439
+F8,025,-27,T     -0.56      1.01    18439
+F8,036,-27,T     -0.47      0.87    18439
+F6,015,-27,H     -1.60      0.17    18439
+F7,017,-27,H     -1.30      0.31    18439
+F9,102,-27,T     -0.54      1.13    18439
+[1] "folder 7"
+[1] "    file 1"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/21 feb 2013/HARPIA_20130221_054500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.51      0.82    18439
+F2,000,-27,T     -0.32      0.97    18439
+F2,087,-27,T     -0.40      0.92    18439
+F3,000,-27,T     -0.40      0.87    18439
+F4,000,-27,T     -0.78      1.34    18439
+F4,030,-27,T     -0.58      0.83    18439
+F5,065,-27,T     -0.43      1.08    18439
+F8,025,-27,T     -0.50      0.87    18439
+F8,036,-27,T     -0.63      0.96    18439
+F6,015,-27,H     -1.74     -0.16    18439
+F7,017,-27,H     -1.32      0.30    18439
+F9,102,-27,T     -0.55      1.02    18439
+[1] "    file 2"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/21 feb 2013/HARPIA_20130221_060000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.70      1.48    18439
+F2,000,-27,T     -0.58      1.65    18439
+F2,087,-27,T     -0.48      1.99    18439
+F3,000,-27,T     -0.55      1.81    18439
+F4,000,-27,T     -0.92      1.42    18439
+F4,030,-27,T     -0.88      1.58    18439
+F5,065,-27,T     -0.44      1.32    18439
+F8,025,-27,T     -0.61      1.25    18439
+F8,036,-27,T     -0.58      1.46    18439
+F6,015,-27,H     -1.99      0.19    18439
+F7,017,-27,H     -1.04      0.58    18439
+F9,102,-27,T     -0.71      1.78    18439
+[1] "    file 3"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/21 feb 2013/HARPIA_20130221_061500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -1.77      0.77    18439
+F2,000,-27,T     -1.90      0.77    18439
+F2,087,-27,T     -2.46      0.65    18439
+F3,000,-27,T     -3.24      0.70    18439
+F4,000,-27,T     -1.34      1.09    18439
+F4,030,-27,T     -3.91      0.76    18439
+F5,065,-27,T     -1.05      0.91    18439
+F8,025,-27,T     -1.19      0.70    18439
+F8,036,-27,T     -1.06      1.48    18439
+F6,015,-27,H     -1.32      0.69    18439
+F7,017,-27,H     -2.38      0.74    18439
+F9,102,-27,T     -1.32      0.98    18439
+[1] "    file 4"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/21 feb 2013/HARPIA_20130221_063000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.40      0.80    18439
+F2,000,-27,T     -0.24      0.85    18439
+F2,087,-27,T     -0.27      0.87    18439
+F3,000,-27,T     -0.23      0.88    18439
+F4,000,-27,T     -0.69      1.27    18439
+F4,030,-27,T     -0.41      1.00    18439
+F5,065,-27,T     -0.34      1.09    18439
+F8,025,-27,T     -0.45      0.81    18439
+F8,036,-27,T     -0.38      0.74    18439
+F6,015,-27,H     -1.54     -0.07    18439
+F7,017,-27,H     -1.11      0.47    18439
+F9,102,-27,T     -0.36      0.98    18439
+[1] "    file 5"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/21 feb 2013/HARPIA_20130221_064500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.50      0.90    18439
+F2,000,-27,T     -0.28      0.91    18439
+F2,087,-27,T     -0.23      0.94    18439
+F3,000,-27,T     -0.32      0.87    18439
+F4,000,-27,T     -0.54      1.24    18439
+F4,030,-27,T     -0.55      0.94    18439
+F5,065,-27,T     -0.30      1.05    18439
+F8,025,-27,T     -0.40      0.90    18439
+F8,036,-27,T     -0.42      0.80    18439
+F6,015,-27,H     -1.66     -0.12    18439
+F7,017,-27,H     -1.10      0.24    18439
+F9,102,-27,T     -0.34      1.04    18439
+[1] "    file 6"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/21 feb 2013/HARPIA_20130221_070000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.42      0.94    18439
+F2,000,-27,T     -0.27      0.84    18439
+F2,087,-27,T     -0.39      0.90    18439
+F3,000,-27,T     -0.26      0.82    18439
+F4,000,-27,T     -0.54      1.26    18439
+F4,030,-27,T     -0.61      0.90    18439
+F5,065,-27,T     -0.31      1.13    18439
+F8,025,-27,T     -0.40      0.86    18439
+F8,036,-27,T     -0.43      0.77    18439
+F6,015,-27,H     -1.80     -0.43    18439
+F7,017,-27,H     -1.20      0.09    18439
+F9,102,-27,T     -0.36      1.03    18439
+[1] "    file 7"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/21 feb 2013/HARPIA_20130221_071500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.58      0.90    18439
+F2,000,-27,T     -0.42      0.90    18439
+F2,087,-27,T     -0.43      0.90    18439
+F3,000,-27,T     -0.42      0.84    18439
+F4,000,-27,T     -0.74      1.29    18439
+F4,030,-27,T     -0.64      0.80    18439
+F5,065,-27,T     -0.32      1.11    18439
+F8,025,-27,T     -0.60      0.78    18439
+F8,036,-27,T     -0.43      0.78    18439
+F6,015,-27,H     -1.69     -0.24    18439
+F7,017,-27,H     -1.16      0.37    18439
+F9,102,-27,T     -0.44      1.09    18439
+[1] "    file 8"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/21 feb 2013/HARPIA_20130221_073000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.88      1.60    18439
+F2,000,-27,T     -0.93      1.30    18439
+F2,087,-27,T     -0.56      1.16    18439
+F3,000,-27,T     -1.35      1.15    18439
+F4,000,-27,T     -0.85      2.06    18439
+F4,030,-27,T     -1.47      1.42    18439
+F5,065,-27,T     -0.81      1.65    18439
+F8,025,-27,T     -0.80      1.51    18439
+F8,036,-27,T     -0.97      1.28    18439
+F6,015,-27,H     -2.41      0.21    18439
+F7,017,-27,H     -2.05      0.50    18439
+F9,102,-27,T     -0.79      1.98    18439
+[1] "    file 9"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/21 feb 2013/HARPIA_20130221_074500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.72      0.88    18439
+F2,000,-27,T     -0.36      0.99    18439
+F2,087,-27,T     -0.43      0.86    18439
+F3,000,-27,T     -0.52      0.79    18439
+F4,000,-27,T     -0.73      1.33    18439
+F4,030,-27,T     -0.63      0.85    18439
+F5,065,-27,T     -0.52      1.08    18439
+F8,025,-27,T     -0.66      0.86    18439
+F8,036,-27,T     -0.77      0.83    18439
+F6,015,-27,H     -1.89      0.87    18439
+F7,017,-27,H     -1.34      0.78    18439
+F9,102,-27,T     -0.65      1.03    18439
+[1] "    file 10"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/21 feb 2013/HARPIA_20130221_080000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -1.06      1.46    18439
+F2,000,-27,T     -0.46      1.01    18439
+F2,087,-27,T     -0.38      0.89    18439
+F3,000,-27,T     -0.70      1.10    18439
+F4,000,-27,T     -1.20      1.35    18439
+F4,030,-27,T     -1.22      0.98    18439
+F5,065,-27,T     -0.81      1.71    18439
+F8,025,-27,T     -0.87      1.41    18439
+F8,036,-27,T     -0.62      1.06    18439
+F6,015,-27,H     -1.73     -0.03    18439
+F7,017,-27,H     -1.40      0.55    18439
+F9,102,-27,T     -0.84      1.75    18439
+[1] "folder 8"
+[1] "    file 1"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/22 feb 2013/HARPIA_20130222_054500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.64      4.64    18439
+F2,000,-27,T     -0.73      3.73    18439
+F2,087,-27,T     -0.61      4.84    18439
+F3,000,-27,T     -0.61      4.51    18439
+F4,000,-27,T     -0.92      3.14    18439
+F4,030,-27,T     -0.80      3.96    18439
+F5,065,-27,T     -0.53      4.49    18439
+F8,025,-27,T     -0.61      4.29    18439
+F8,036,-27,T     -0.66      3.20    18439
+F6,015,-27,H     -4.58      0.44    18439
+F7,017,-27,H     -1.46      1.32    18439
+F9,102,-27,T     -0.70      3.74    18439
+[1] "    file 2"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/22 feb 2013/HARPIA_20130222_060000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -1.51      1.61    18439
+F2,000,-27,T     -1.62      0.85    18439
+F2,087,-27,T     -1.68      0.76    18439
+F3,000,-27,T     -1.87      0.92    18439
+F4,000,-27,T     -1.30      3.01    18439
+F4,030,-27,T     -1.46      2.25    18439
+F5,065,-27,T     -1.20      1.82    18439
+F8,025,-27,T     -1.00      1.47    18439
+F8,036,-27,T     -1.08      1.19    18439
+F6,015,-27,H     -2.03      0.86    18439
+F7,017,-27,H     -0.82      1.05    18439
+F9,102,-27,T     -1.48      1.31    18439
+[1] "    file 3"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/22 feb 2013/HARPIA_20130222_061500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -1.22      0.81    18439
+F2,000,-27,T     -1.19      0.24    18439
+F2,087,-27,T     -1.19      0.12    18439
+F3,000,-27,T     -1.23      0.19    18439
+F4,000,-27,T     -1.36      1.00    18439
+F4,030,-27,T     -1.23      0.65    18439
+F5,065,-27,T     -1.11      0.66    18439
+F8,025,-27,T     -1.07      0.78    18439
+F8,036,-27,T     -0.76      0.58    18439
+F6,015,-27,H     -0.59      1.46    18439
+F7,017,-27,H     -0.56      1.09    18439
+F9,102,-27,T     -1.30      0.87    18439
+[1] "    file 4"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/22 feb 2013/HARPIA_20130222_063000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.95      0.76    18439
+F2,000,-27,T     -1.12      0.64    18439
+F2,087,-27,T     -1.13      0.73    18439
+F3,000,-27,T     -1.16      0.62    18439
+F4,000,-27,T     -1.04      0.89    18439
+F4,030,-27,T     -0.98      0.78    18439
+F5,065,-27,T     -0.92      0.72    18439
+F8,025,-27,T     -0.65      0.80    18439
+F8,036,-27,T     -0.76      0.76    18439
+F6,015,-27,H     -0.72      1.30    18439
+F7,017,-27,H     -0.74      1.34    18439
+F9,102,-27,T     -1.10      0.91    18439
+[1] "    file 5"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/22 feb 2013/HARPIA_20130222_064500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.72      1.67    18439
+F2,000,-27,T     -0.63      1.67    18439
+F2,087,-27,T     -0.55      1.68    18439
+F3,000,-27,T     -0.69      1.29    18439
+F4,000,-27,T     -0.87      1.28    18439
+F4,030,-27,T     -0.79      1.03    18439
+F5,065,-27,T     -0.89      1.16    18439
+F8,025,-27,T     -0.65      1.54    18439
+F8,036,-27,T     -0.61      1.43    18439
+F6,015,-27,H     -1.42      0.76    18439
+F7,017,-27,H     -1.74      0.86    18439
+F9,102,-27,T     -0.87      1.46    18439
+[1] "    file 6"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/22 feb 2013/HARPIA_20130222_070000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.73      1.05    18439
+F2,000,-27,T     -0.78      1.00    18439
+F2,087,-27,T     -0.69      1.11    18439
+F3,000,-27,T     -0.89      1.16    18439
+F4,000,-27,T     -0.92      1.29    18439
+F4,030,-27,T     -0.91      1.07    18439
+F5,065,-27,T     -0.69      1.19    18439
+F8,025,-27,T     -0.68      1.04    18439
+F8,036,-27,T     -0.59      1.03    18439
+F6,015,-27,H     -1.26      0.75    18439
+F7,017,-27,H     -0.95      0.92    18439
+F9,102,-27,T     -0.73      1.35    18439
+[1] "    file 7"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/22 feb 2013/HARPIA_20130222_071500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -0.76      1.18    18439
+F2,000,-27,T     -0.87      1.08    18439
+F2,087,-27,T     -0.84      1.13    18439
+F3,000,-27,T     -0.90      1.20    18439
+F4,000,-27,T     -1.05      1.30    18439
+F4,030,-27,T     -1.17      1.08    18439
+F5,065,-27,T     -0.58      1.39    18439
+F8,025,-27,T     -0.61      1.21    18439
+F8,036,-27,T     -0.59      1.02    18439
+F6,015,-27,H     -1.65      0.68    18439
+F7,017,-27,H     -0.84      0.84    18439
+F9,102,-27,T     -0.78      1.31    18439
+[1] "    file 8"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/22 feb 2013/HARPIA_20130222_073000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -1.56      1.42    18439
+F2,000,-27,T     -1.73      1.15    18439
+F2,087,-27,T     -1.81      1.30    18439
+F3,000,-27,T     -1.67      1.29    18439
+F4,000,-27,T     -1.81      1.34    18439
+F4,030,-27,T     -1.16      1.31    18439
+F5,065,-27,T     -1.81      1.29    18439
+F8,025,-27,T     -1.41      1.52    18439
+F8,036,-27,T     -1.19      1.49    18439
+F6,015,-27,H     -1.09      4.71    18439
+F7,017,-27,H     -1.49      2.87    18439
+F9,102,-27,T     -1.88      1.41    18439
+[1] "    file 9"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/22 feb 2013/HARPIA_20130222_074500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -1.12      1.64    18439
+F2,000,-27,T     -0.84      1.58    18439
+F2,087,-27,T     -1.08      1.66    18439
+F3,000,-27,T     -1.25      1.65    18439
+F4,000,-27,T     -1.64      1.73    18439
+F4,030,-27,T     -1.87      1.70    18439
+F5,065,-27,T     -1.48      1.63    18439
+F8,025,-27,T     -1.01      1.55    18439
+F8,036,-27,T     -0.77      1.40    18439
+F6,015,-27,H     -1.93      0.91    18439
+F7,017,-27,H     -1.99      0.89    18439
+F9,102,-27,T     -0.86      1.67    18439
+[1] "    file 10"
+
+A "templateScores" object
+
+Based on the survey file:  AutomatedDetection_TestingTemplates/4,200/22 feb 2013/HARPIA_20130222_080000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-27,T     -1.96      2.88    18439
+F2,000,-27,T     -1.97      2.01    18439
+F2,087,-27,T     -1.98      2.33    18439
+F3,000,-27,T     -2.27      1.83    18439
+F4,000,-27,T     -1.43      2.63    18439
+F4,030,-27,T     -2.22      1.78    18439
+F5,065,-27,T     -1.08      3.09    18439
+F8,025,-27,T     -1.47      3.12    18439
+F8,036,-27,T     -1.13      3.08    18439
+F6,015,-27,H     -4.24      1.43    18439
+F7,017,-27,H     -3.38      1.44    18439
+F9,102,-27,T     -1.80      2.96    18439

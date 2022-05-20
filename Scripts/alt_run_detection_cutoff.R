@@ -1,9 +1,11 @@
 library(tidyverse)
-f <- "consolidated_completedata_output.csv"
-d <- read_csv(f, col_names = TRUE)
+
+
+data <- "consolidated_completedata_output.csv"
+d <- read_csv(data, col_names = TRUE)
 
 output <- d %>%
-  group_by(survey_file_name, species) %>%
+  group_by(audiofile, species) %>%
   summarize(max.avg = mean(max.score),
             min.avg = mean(min.score))
 

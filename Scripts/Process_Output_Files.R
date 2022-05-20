@@ -3,10 +3,11 @@
 
 library(tidyverse)
 library(ggplot2)
+library(data.table)
 
 filenames <- list.files(
-  "C:/Users/Silvy/Documents/R/Repos/PrimatesAndSoundscapes", pattern = ".txt", full.names = TRUE
-  )
+  "C:/Users/Silvy/Documents/R/Repos/PrimatesAndSoundscapes2", pattern = ".txt", full.names = TRUE
+)
 # initialize results
 results <- tibble(
   original_output_file=character(),
@@ -28,6 +29,10 @@ for (f in filenames){
   d <- read_lines(f, skip_empty_rows = TRUE)
   # initialize vectors
   survey_file_name <- character()
+  folder <- character()
+  location <- character()
+  recording.date <- character()
+  audiofile <- character()
   template <- character()
   min.score <- numeric()
   max.score <- numeric()
@@ -35,10 +40,17 @@ for (f in filenames){
   # initialize index
   index <- 0
   for (i in 1:length(d)){ # loop through file line by line
-    l <- str_split(d[i], "[ ]+")
-    if (str_detect(l[[1]][1], "Based") ==TRUE){
-      filename <- paste0(l[[1]][6], " ", l[[1]][7], " ", l[[1]][8])
+    if (str_detect(d[i], "Based") ==TRUE){
+      fname <- str_remove(d[i], "Based on the survey file:  [a-zA-Z -]*/")
+      locationSubstrings <- str_split(fname, "/")
+      folder <- locationSubstrings[[1]][1]
+      location <- locationSubstrings[[1]][2]
+      recording.date <- locationSubstrings[[1]][3]
+      audiofile <- locationSubstrings[[1]][4]
+      filename <- paste0(fname)
     }
+    l <- str_split(d[i], "[ ]+")
+
     if (str_detect(l[[1]][1], "F") ==TRUE){
       index <- index + 1
       survey_file_name[index] <- filename
@@ -48,20 +60,55 @@ for (f in filenames){
       n.scores[index] <- as.numeric(l[[1]][4])
     }
   }
-  r <- tibble(original_output_file=f, survey_file_name=survey_file_name, template=template,min.score=min.score, max.score=max.score, n.scores=n.scores)
+  r <- tibble(
+    original_output_file=f,
+    survey_file_name=survey_file_name,
+    folder=folder,
+    location=location,
+    recording.date=recording.date,
+    audiofile=audiofile,
+    template=template,
+    min.score=min.score,
+    max.score=max.score,
+    n.scores=n.scores
+  )
   results <- bind_rows(results, r)
   # cleanup memory and workspace
-  rm(list=c("r", "d", "l", "survey_file_name", "template", "min.score", "max.score", "n.scores", "index", "i", "filename"))
+  rm(list=c(
+    "r",
+    "d",
+    "l",
+    "survey_file_name",
+    "folder",
+    "location",
+    "recording.date",
+    "audiofile",
+    "template",
+    "min.score",
+    "max.score",
+    "n.scores",
+    "index",
+    "i",
+    "filename"
+  ))
 }
 
 #Separate data that are currently merged in a single column
-results <- separate(data = results, col = "template", into = c("template", "starttime", "ampcutoff", "species"), sep = ",")
-results <- separate(data = results, col = "survey_file_name", into = c("folder", "location", "date", "audiofile"), sep = "/")
+results <- separate(data = results, col = "template",
+                    into = c("template", "starttime", "ampcutoff", "species"),
+                    sep = ",")
 
-#The file PrimatesInFiles notes which audio files had primate calls found by manual observers. Adding in this datapoint allows us to compare our knowledge of the presence/absence of primate calls to the max.score values the templates generate.
-PrimatesInFiles <- read_csv("PrimatesInFiles4200.csv", col_names = TRUE)
-results <- left_join(results, PrimatesInFiles, by = "audiofile")
+#Reorder columns and remove some obsolete columns.
+results <- results[, c(13, 10, 11, 12, 3, 4, 5, 6, 7, 8, 9)]
 
-write_csv(results, "consolidated_output.csv")
-# cleanup memory and workspace
+#The file PrimatesInFiles notes which audio files had primate calls found by
+# manual observers. Adding in this datapoint allows us to compare our knowledge
+# of the presence/absence of primate calls to the max.score values the templates generate.
+PrimatesInFiles <- read_csv("Primates_In_All_Recordings.csv", col_names = TRUE)
+
+#####This left join isn't working right!
+results <- left_join(PrimatesInFiles, results, by = "audiofile")
+
+fwrite(results, "consolidated_completedata_output.csv") #The usual write_csv() only wrote the first 600 lines rather than all 14000+!
+# cleanup memory and work space
 rm(list=c("results", "filenames","f"))

@@ -1,0 +1,422 @@
+[1] "folder 1"
+[1] "    file 1"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Harpia 2013/5,800/13 feb 2013/HARPIA_20130213_054500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -1.83      1.17    18439
+F2,000,-25,T     -1.77      0.47    18439
+F2,087,-25,T     -1.98      0.52    18439
+F3,000,-25,T     -1.78      0.68    18439
+F4,000,-25,T     -2.13      1.98    18439
+F4,030,-25,T     -1.13      1.57    18439
+F5,065,-25,T     -2.32      0.77    18439
+F8,025,-25,T     -1.94      0.68    18439
+F8,036,-25,T     -1.63      0.35    18439
+F6,015,-25,H     -0.33      3.28    18439
+F7,017,-25,H     -0.18      2.11    18439
+F9,102,-25,T     -1.80      1.18    18439
+[1] "    file 2"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Harpia 2013/5,800/13 feb 2013/HARPIA_20130213_060000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -2.67      0.81    18439
+F2,000,-25,T     -3.65     -0.63    18439
+F2,087,-25,T     -3.57     -0.36    18439
+F3,000,-25,T     -3.75     -0.20    18439
+F4,000,-25,T     -2.62      2.04    18439
+F4,030,-25,T     -2.61      1.23    18439
+F5,065,-25,T     -2.83      1.49    18439
+F8,025,-25,T     -2.46      0.73    18439
+F8,036,-25,T     -2.62      0.60    18439
+F6,015,-25,H      2.00      6.75    18439
+F7,017,-25,H      0.98      4.65    18439
+F9,102,-25,T     -3.49      0.36    18439
+[1] "    file 3"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Harpia 2013/5,800/13 feb 2013/HARPIA_20130213_061500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -3.08      0.57    18439
+F2,000,-25,T     -4.04     -0.39    18439
+F2,087,-25,T     -4.32     -0.19    18439
+F3,000,-25,T     -4.45     -0.04    18439
+F4,000,-25,T     -2.27      1.20    18439
+F4,030,-25,T     -3.99      0.77    18439
+F5,065,-25,T     -2.57      0.41    18439
+F8,025,-25,T     -2.84      0.39    18439
+F8,036,-25,T     -2.60      0.21    18439
+F6,015,-25,H      1.00      4.83    18439
+F7,017,-25,H      0.41      3.22    18439
+F9,102,-25,T     -3.25      0.15    18439
+[1] "    file 4"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Harpia 2013/5,800/13 feb 2013/HARPIA_20130213_063000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -2.38      1.16    18439
+F2,000,-25,T     -2.33     -0.03    18439
+F2,087,-25,T     -2.46      0.35    18439
+F3,000,-25,T     -2.13      0.28    18439
+F4,000,-25,T     -2.05      2.10    18439
+F4,030,-25,T     -1.22      1.63    18439
+F5,065,-25,T     -2.17      1.03    18439
+F8,025,-25,T     -2.48      0.71    18439
+F8,036,-25,T     -2.47      0.46    18439
+F6,015,-25,H      0.68      3.68    18439
+F7,017,-25,H      0.50      3.02    18439
+F9,102,-25,T     -2.34      0.62    18439
+[1] "    file 5"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Harpia 2013/5,800/13 feb 2013/HARPIA_20130213_064500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -3.35      0.81    18439
+F2,000,-25,T     -2.65     -0.16    18439
+F2,087,-25,T     -3.14      0.20    18439
+F3,000,-25,T     -3.32      0.25    18439
+F4,000,-25,T     -1.94      1.88    18439
+F4,030,-25,T     -2.59      1.49    18439
+F5,065,-25,T     -2.04      0.68    18439
+F8,025,-25,T     -2.57      0.77    18439
+F8,036,-25,T     -2.92      0.27    18439
+F6,015,-25,H      0.19      3.66    18439
+F7,017,-25,H      0.52      3.06    18439
+F9,102,-25,T     -2.50      0.21    18439
+[1] "    file 6"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Harpia 2013/5,800/13 feb 2013/HARPIA_20130213_070000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -2.92      0.78    18439
+F2,000,-25,T     -2.88      0.14    18439
+F2,087,-25,T     -2.83      0.31    18439
+F3,000,-25,T     -2.95      0.20    18439
+F4,000,-25,T     -1.84      2.24    18439
+F4,030,-25,T     -1.82      1.71    18439
+F5,065,-25,T     -2.10      0.94    18439
+F8,025,-25,T     -2.64      0.58    18439
+F8,036,-25,T     -2.85      0.28    18439
+F6,015,-25,H      0.35      3.24    18439
+F7,017,-25,H      0.02      2.48    18439
+F9,102,-25,T     -2.79      0.61    18439
+[1] "    file 7"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Harpia 2013/5,800/13 feb 2013/HARPIA_20130213_071500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -2.27      0.74    18439
+F2,000,-25,T     -2.60     -0.04    18439
+F2,087,-25,T     -2.76      0.13    18439
+F3,000,-25,T     -2.43     -0.04    18439
+F4,000,-25,T     -2.31      1.98    18439
+F4,030,-25,T     -1.51      1.56    18439
+F5,065,-25,T     -2.38      0.94    18439
+F8,025,-25,T     -2.16      0.85    18439
+F8,036,-25,T     -2.81      0.35    18439
+F6,015,-25,H      0.03      3.68    18439
+F7,017,-25,H      0.12      2.60    18439
+F9,102,-25,T     -2.36      0.52    18439
+[1] "    file 8"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Harpia 2013/5,800/13 feb 2013/HARPIA_20130213_073000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -2.33      0.23    18439
+F2,000,-25,T     -2.40     -0.59    18439
+F2,087,-25,T     -2.29     -0.40    18439
+F3,000,-25,T     -2.11     -0.01    18439
+F4,000,-25,T     -2.36      3.47    18439
+F4,030,-25,T     -1.31      2.37    18439
+F5,065,-25,T     -2.35      1.21    18439
+F8,025,-25,T     -2.13     -0.04    18439
+F8,036,-25,T     -2.53      0.22    18439
+F6,015,-25,H     -0.69      2.89    18439
+F7,017,-25,H     -0.55      2.26    18439
+F9,102,-25,T     -2.35      0.04    18439
+[1] "    file 9"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Harpia 2013/5,800/13 feb 2013/HARPIA_20130213_074500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -1.59      0.21    18439
+F2,000,-25,T     -2.31     -0.11    18439
+F2,087,-25,T     -2.09      0.03    18439
+F3,000,-25,T     -2.04      0.08    18439
+F4,000,-25,T     -1.93      3.46    18439
+F4,030,-25,T     -1.14      2.33    18439
+F5,065,-25,T     -1.96      1.44    18439
+F8,025,-25,T     -1.60      0.01    18439
+F8,036,-25,T     -1.92      0.24    18439
+F6,015,-25,H     -0.80      2.50    18439
+F7,017,-25,H     -0.23      1.86    18439
+F9,102,-25,T     -2.00      0.38    18439
+[1] "    file 10"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Harpia 2013/5,800/13 feb 2013/HARPIA_20130213_080000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -2.27      0.22    18439
+F2,000,-25,T     -2.07     -0.14    18439
+F2,087,-25,T     -2.29     -0.16    18439
+F3,000,-25,T     -2.25     -0.20    18439
+F4,000,-25,T     -2.62      2.70    18439
+F4,030,-25,T     -2.29      1.48    18439
+F5,065,-25,T     -2.72      0.43    18439
+F8,025,-25,T     -2.51      0.13    18439
+F8,036,-25,T     -1.74      0.22    18439
+F6,015,-25,H     -0.39      3.38    18439
+F7,017,-25,H     -0.86      2.25    18439
+F9,102,-25,T     -1.77      0.12    18439
+[1] "folder 2"
+[1] "    file 1"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Harpia 2013/5,800/14 feb 2013/HARPIA_20130214_054500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -2.00      1.12    18439
+F2,000,-25,T     -2.30      0.02    18439
+F2,087,-25,T     -2.50      0.34    18439
+F3,000,-25,T     -2.16      0.62    18439
+F4,000,-25,T     -2.26      2.12    18439
+F4,030,-25,T     -1.57      2.26    18439
+F5,065,-25,T     -2.10      1.05    18439
+F8,025,-25,T     -2.04      0.85    18439
+F8,036,-25,T     -2.35      0.42    18439
+F6,015,-25,H     -0.06      5.72    18439
+F7,017,-25,H      0.09      3.96    18439
+F9,102,-25,T     -2.08      0.80    18439
+[1] "    file 2"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Harpia 2013/5,800/14 feb 2013/HARPIA_20130214_060000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -2.90      0.75    18439
+F2,000,-25,T     -3.84      0.60    18439
+F2,087,-25,T     -4.02      0.71    18439
+F3,000,-25,T     -3.96      0.65    18439
+F4,000,-25,T     -2.55      0.96    18439
+F4,030,-25,T     -3.53      0.08    18439
+F5,065,-25,T     -2.82      0.26    18439
+F8,025,-25,T     -2.52      0.33    18439
+F8,036,-25,T     -2.57      0.65    18439
+F6,015,-25,H      2.15      5.99    18439
+F7,017,-25,H      0.55      4.11    18439
+F9,102,-25,T     -3.23      0.66    18439
+[1] "    file 3"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Harpia 2013/5,800/14 feb 2013/HARPIA_20130214_061500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -2.91     -0.49    18439
+F2,000,-25,T     -3.39     -0.85    18439
+F2,087,-25,T     -3.42     -1.00    18439
+F3,000,-25,T     -3.49     -1.01    18439
+F4,000,-25,T     -2.78     -0.10    18439
+F4,030,-25,T     -2.92     -0.17    18439
+F5,065,-25,T     -2.80     -0.42    18439
+F8,025,-25,T     -2.72     -0.50    18439
+F8,036,-25,T     -2.47     -0.14    18439
+F6,015,-25,H      2.46      5.62    18439
+F7,017,-25,H      0.68      3.38    18439
+F9,102,-25,T     -2.93     -0.52    18439
+[1] "    file 4"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Harpia 2013/5,800/14 feb 2013/HARPIA_20130214_063000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -2.27      0.12    18439
+F2,000,-25,T     -2.87     -0.52    18439
+F2,087,-25,T     -3.50     -0.50    18439
+F3,000,-25,T     -3.74     -0.41    18439
+F4,000,-25,T     -2.23      0.98    18439
+F4,030,-25,T     -3.48      0.69    18439
+F5,065,-25,T     -2.47     -0.13    18439
+F8,025,-25,T     -1.84      0.10    18439
+F8,036,-25,T     -1.78      0.08    18439
+F6,015,-25,H      1.45      4.13    18439
+F7,017,-25,H      0.15      2.71    18439
+F9,102,-25,T     -2.52      0.05    18439
+[1] "    file 5"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Harpia 2013/5,800/14 feb 2013/HARPIA_20130214_064500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -3.07     -0.16    18439
+F2,000,-25,T     -3.70     -0.88    18439
+F2,087,-25,T     -3.97     -0.68    18439
+F3,000,-25,T     -4.05     -0.53    18439
+F4,000,-25,T     -2.71      1.66    18439
+F4,030,-25,T     -3.08      0.63    18439
+F5,065,-25,T     -2.61      0.25    18439
+F8,025,-25,T     -2.56     -0.30    18439
+F8,036,-25,T     -2.41      0.04    18439
+F6,015,-25,H      1.83      4.89    18439
+F7,017,-25,H      0.70      3.49    18439
+F9,102,-25,T     -3.14     -0.22    18439
+[1] "    file 6"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Harpia 2013/5,800/14 feb 2013/HARPIA_20130214_070000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -2.96      0.45    18439
+F2,000,-25,T     -3.97     -0.43    18439
+F2,087,-25,T     -3.83     -0.30    18439
+F3,000,-25,T     -3.93     -0.17    18439
+F4,000,-25,T     -2.27      1.78    18439
+F4,030,-25,T     -2.65      0.94    18439
+F5,065,-25,T     -2.38      0.07    18439
+F8,025,-25,T     -2.42      0.21    18439
+F8,036,-25,T     -2.41      0.35    18439
+F6,015,-25,H      0.92      4.33    18439
+F7,017,-25,H      0.30      3.10    18439
+F9,102,-25,T     -3.17      0.00    18439
+[1] "    file 7"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Harpia 2013/5,800/14 feb 2013/HARPIA_20130214_071500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -2.43      0.66    18439
+F2,000,-25,T     -2.64     -0.50    18439
+F2,087,-25,T     -2.68     -0.19    18439
+F3,000,-25,T     -2.33     -0.13    18439
+F4,000,-25,T     -2.13      1.19    18439
+F4,030,-25,T     -2.07      1.30    18439
+F5,065,-25,T     -2.56      0.87    18439
+F8,025,-25,T     -2.30      0.56    18439
+F8,036,-25,T     -2.11      0.51    18439
+F6,015,-25,H      0.79      3.71    18439
+F7,017,-25,H     -0.34      2.55    18439
+F9,102,-25,T     -2.66      0.33    18439
+[1] "    file 8"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Harpia 2013/5,800/14 feb 2013/HARPIA_20130214_073000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -1.90      0.56    18439
+F2,000,-25,T     -2.72     -0.47    18439
+F2,087,-25,T     -2.49     -0.28    18439
+F3,000,-25,T     -2.33     -0.15    18439
+F4,000,-25,T     -2.50      1.63    18439
+F4,030,-25,T     -1.47      1.07    18439
+F5,065,-25,T     -2.51      0.33    18439
+F8,025,-25,T     -2.07      0.54    18439
+F8,036,-25,T     -2.15      0.15    18439
+F6,015,-25,H      0.57      4.37    18439
+F7,017,-25,H      0.19      2.90    18439
+F9,102,-25,T     -2.41      0.01    18439
+[1] "    file 9"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Harpia 2013/5,800/14 feb 2013/HARPIA_20130214_074500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -1.63      0.67    18439
+F2,000,-25,T     -2.62     -0.61    18439
+F2,087,-25,T     -2.50     -0.28    18439
+F3,000,-25,T     -2.48     -0.36    18439
+F4,000,-25,T     -2.21      1.31    18439
+F4,030,-25,T     -1.37      1.02    18439
+F5,065,-25,T     -2.30      0.07    18439
+F8,025,-25,T     -1.73      0.37    18439
+F8,036,-25,T     -2.28      0.36    18439
+F6,015,-25,H      0.63      3.35    18439
+F7,017,-25,H      0.31      2.51    18439
+F9,102,-25,T     -2.40     -0.05    18439
+[1] "    file 10"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Harpia 2013/5,800/14 feb 2013/HARPIA_20130214_080000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -2.04      1.16    18439
+F2,000,-25,T     -2.90     -0.23    18439
+F2,087,-25,T     -2.84     -0.03    18439
+F3,000,-25,T     -2.60      0.14    18439
+F4,000,-25,T     -2.82      3.61    18439
+F4,030,-25,T     -1.34      2.66    18439
+F5,065,-25,T     -2.66      1.26    18439
+F8,025,-25,T     -2.18      0.99    18439
+F8,036,-25,T     -2.23      0.38    18439
+F6,015,-25,H     -0.63      4.23    18439
+F7,017,-25,H     -0.26      3.39    18439
+F9,102,-25,T     -2.53      0.47    18439

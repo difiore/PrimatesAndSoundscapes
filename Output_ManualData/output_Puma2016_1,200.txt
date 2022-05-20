@@ -1,0 +1,422 @@
+[1] "folder 1"
+[1] "    file 1"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Puma 2016/1, 200/13 feb/PUMA_20160213_054500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -4.98      3.98    18439
+F2,000,-25,T     -1.92      1.52    18439
+F2,087,-25,T     -1.54      0.84    18439
+F3,000,-25,T     -1.90      2.55    18439
+F4,000,-25,T     -2.79      2.63    18439
+F4,030,-25,T     -2.40      2.28    18439
+F5,065,-25,T     -4.13      3.24    18439
+F8,025,-25,T     -4.16      3.28    18439
+F8,036,-25,T     -2.42      1.90    18439
+F6,015,-25,H     -1.73      2.84    18439
+F7,017,-25,H     -1.11      3.44    18439
+F9,102,-25,T     -3.54      3.88    18439
+[1] "    file 2"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Puma 2016/1, 200/13 feb/PUMA_20160213_060000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -5.45      2.77    18439
+F2,000,-25,T     -4.16      0.90    18439
+F2,087,-25,T     -3.53      1.80    18439
+F3,000,-25,T     -3.43      3.41    18439
+F4,000,-25,T     -4.07      2.74    18439
+F4,030,-25,T     -2.72      5.74    18439
+F5,065,-25,T     -4.77      2.06    18439
+F8,025,-25,T     -5.22      1.89    18439
+F8,036,-25,T     -5.77      1.15    18439
+F6,015,-25,H     -0.49     13.25    18439
+F7,017,-25,H     -1.03     12.08    18439
+F9,102,-25,T     -4.82      2.76    18439
+[1] "    file 3"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Puma 2016/1, 200/13 feb/PUMA_20160213_061500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -4.17      2.18    18439
+F2,000,-25,T     -5.09      1.03    18439
+F2,087,-25,T     -3.98      0.87    18439
+F3,000,-25,T     -3.48      1.25    18439
+F4,000,-25,T     -3.72      2.17    18439
+F4,030,-25,T     -3.11      1.70    18439
+F5,065,-25,T     -4.02      1.66    18439
+F8,025,-25,T     -4.01      1.85    18439
+F8,036,-25,T     -4.01      1.45    18439
+F6,015,-25,H     -0.45     11.91    18439
+F7,017,-25,H     -1.37      9.09    18439
+F9,102,-25,T     -4.49      2.28    18439
+[1] "    file 4"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Puma 2016/1, 200/13 feb/PUMA_20160213_063000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -3.45      3.11    18439
+F2,000,-25,T     -2.37      1.15    18439
+F2,087,-25,T     -2.46      0.91    18439
+F3,000,-25,T     -2.70      1.71    18439
+F4,000,-25,T     -2.74      1.99    18439
+F4,030,-25,T     -2.50      1.91    18439
+F5,065,-25,T     -3.18      1.62    18439
+F8,025,-25,T     -3.04      2.24    18439
+F8,036,-25,T     -2.56      1.26    18439
+F6,015,-25,H     -0.93      4.87    18439
+F7,017,-25,H     -2.08      4.06    18439
+F9,102,-25,T     -3.07      3.07    18439
+[1] "    file 5"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Puma 2016/1, 200/13 feb/PUMA_20160213_064500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -3.08      1.69    18439
+F2,000,-25,T     -3.97     -0.06    18439
+F2,087,-25,T     -4.20      0.06    18439
+F3,000,-25,T     -4.16      0.52    18439
+F4,000,-25,T     -3.13      1.20    18439
+F4,030,-25,T     -3.43      1.10    18439
+F5,065,-25,T     -2.61      1.13    18439
+F8,025,-25,T     -2.39      1.57    18439
+F8,036,-25,T     -2.41      1.37    18439
+F6,015,-25,H      0.53      4.89    18439
+F7,017,-25,H     -1.43      3.28    18439
+F9,102,-25,T     -3.55      1.27    18439
+[1] "    file 6"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Puma 2016/1, 200/13 feb/PUMA_20160213_070000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -2.69      1.87    18439
+F2,000,-25,T     -3.29      0.30    18439
+F2,087,-25,T     -3.40      0.03    18439
+F3,000,-25,T     -3.75      0.74    18439
+F4,000,-25,T     -2.38      3.77    18439
+F4,030,-25,T     -2.73      2.12    18439
+F5,065,-25,T     -2.48      1.45    18439
+F8,025,-25,T     -2.62      1.44    18439
+F8,036,-25,T     -2.56      1.16    18439
+F6,015,-25,H     -0.46      3.70    18439
+F7,017,-25,H     -0.47      2.66    18439
+F9,102,-25,T     -2.90      1.95    18439
+[1] "    file 7"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Puma 2016/1, 200/13 feb/PUMA_20160213_071500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -3.65      2.68    18439
+F2,000,-25,T     -2.36      1.26    18439
+F2,087,-25,T     -2.27      1.29    18439
+F3,000,-25,T     -2.99      1.03    18439
+F4,000,-25,T     -3.23      3.22    18439
+F4,030,-25,T     -3.29      1.92    18439
+F5,065,-25,T     -3.83      2.92    18439
+F8,025,-25,T     -3.24      3.03    18439
+F8,036,-25,T     -2.45      2.36    18439
+F6,015,-25,H     -0.19      3.54    18439
+F7,017,-25,H     -1.71      3.52    18439
+F9,102,-25,T     -3.40      3.18    18439
+[1] "    file 8"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Puma 2016/1, 200/13 feb/PUMA_20160213_073000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -3.66      3.09    18439
+F2,000,-25,T     -2.50      3.95    18439
+F2,087,-25,T     -2.64      4.06    18439
+F3,000,-25,T     -2.99      4.31    18439
+F4,000,-25,T     -3.86      1.82    18439
+F4,030,-25,T     -2.99      2.49    18439
+F5,065,-25,T     -4.28      1.96    18439
+F8,025,-25,T     -3.60      2.28    18439
+F8,036,-25,T     -2.96      2.25    18439
+F6,015,-25,H     -0.20      4.06    18439
+F7,017,-25,H     -1.07      3.90    18439
+F9,102,-25,T     -3.55      3.14    18439
+[1] "    file 9"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Puma 2016/1, 200/13 feb/PUMA_20160213_074500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -3.73      2.97    18439
+F2,000,-25,T     -2.28      2.88    18439
+F2,087,-25,T     -2.11      3.07    18439
+F3,000,-25,T     -2.63      3.14    18439
+F4,000,-25,T     -3.11      1.95    18439
+F4,030,-25,T     -2.55      2.07    18439
+F5,065,-25,T     -3.40      2.33    18439
+F8,025,-25,T     -3.61      2.16    18439
+F8,036,-25,T     -2.74      1.76    18439
+F6,015,-25,H      0.15      3.37    18439
+F7,017,-25,H     -1.64      3.19    18439
+F9,102,-25,T     -3.64      2.79    18439
+[1] "    file 10"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Puma 2016/1, 200/13 feb/PUMA_20160213_080000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -2.53      0.65    18439
+F2,000,-25,T     -2.51     -0.24    18439
+F2,087,-25,T     -2.53      0.01    18439
+F3,000,-25,T     -2.33      0.12    18439
+F4,000,-25,T     -2.40      1.22    18439
+F4,030,-25,T     -1.93      1.16    18439
+F5,065,-25,T     -2.70      0.37    18439
+F8,025,-25,T     -2.47      0.49    18439
+F8,036,-25,T     -2.12      0.14    18439
+F6,015,-25,H      0.22      3.85    18439
+F7,017,-25,H     -0.16      2.81    18439
+F9,102,-25,T     -2.88      0.38    18439
+[1] "folder 2"
+[1] "    file 1"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Puma 2016/1, 200/14 feb/PUMA_20160214_054500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -1.99      0.56    18439
+F2,000,-25,T     -1.92      0.21    18439
+F2,087,-25,T     -1.93      0.01    18439
+F3,000,-25,T     -1.81      0.16    18439
+F4,000,-25,T     -2.16      1.10    18439
+F4,030,-25,T     -1.19      1.33    18439
+F5,065,-25,T     -2.37      0.29    18439
+F8,025,-25,T     -2.14      0.39    18439
+F8,036,-25,T     -1.99     -0.16    18439
+F6,015,-25,H      0.94      4.70    18439
+F7,017,-25,H      0.65      2.98    18439
+F9,102,-25,T     -1.83      0.24    18439
+[1] "    file 2"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Puma 2016/1, 200/14 feb/PUMA_20160214_060000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -2.95      0.90    18439
+F2,000,-25,T     -3.14      0.04    18439
+F2,087,-25,T     -3.16     -0.08    18439
+F3,000,-25,T     -3.29      0.12    18439
+F4,000,-25,T     -2.75      1.07    18439
+F4,030,-25,T     -2.74      0.61    18439
+F5,065,-25,T     -3.18      0.36    18439
+F8,025,-25,T     -2.77      0.44    18439
+F8,036,-25,T     -2.77      0.27    18439
+F6,015,-25,H      0.93      5.65    18439
+F7,017,-25,H      0.38      3.74    18439
+F9,102,-25,T     -2.98      0.41    18439
+[1] "    file 3"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Puma 2016/1, 200/14 feb/PUMA_20160214_061500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -2.92      0.26    18439
+F2,000,-25,T     -3.09     -0.12    18439
+F2,087,-25,T     -3.07     -0.06    18439
+F3,000,-25,T     -3.13     -0.02    18439
+F4,000,-25,T     -2.37      0.96    18439
+F4,030,-25,T     -2.37      1.48    18439
+F5,065,-25,T     -2.40      0.34    18439
+F8,025,-25,T     -2.39      0.14    18439
+F8,036,-25,T     -2.18     -0.10    18439
+F6,015,-25,H      1.75      4.61    18439
+F7,017,-25,H      0.58      3.25    18439
+F9,102,-25,T     -2.57      0.42    18439
+[1] "    file 4"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Puma 2016/1, 200/14 feb/PUMA_20160214_063000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -2.33      0.81    18439
+F2,000,-25,T     -2.62     -0.16    18439
+F2,087,-25,T     -2.45     -0.05    18439
+F3,000,-25,T     -2.20      0.28    18439
+F4,000,-25,T     -2.20      0.86    18439
+F4,030,-25,T     -1.74      1.24    18439
+F5,065,-25,T     -2.29      0.24    18439
+F8,025,-25,T     -2.41      0.53    18439
+F8,036,-25,T     -2.13      0.13    18439
+F6,015,-25,H      1.55      4.20    18439
+F7,017,-25,H      1.11      3.20    18439
+F9,102,-25,T     -2.21      0.29    18439
+[1] "    file 5"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Puma 2016/1, 200/14 feb/PUMA_20160214_064500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -2.04      1.08    18439
+F2,000,-25,T     -2.13      0.34    18439
+F2,087,-25,T     -2.12      0.46    18439
+F3,000,-25,T     -2.01      0.60    18439
+F4,000,-25,T     -2.08      1.97    18439
+F4,030,-25,T     -1.41      1.42    18439
+F5,065,-25,T     -2.23      0.71    18439
+F8,025,-25,T     -2.06      0.88    18439
+F8,036,-25,T     -2.21      0.36    18439
+F6,015,-25,H      1.29      4.00    18439
+F7,017,-25,H      0.34      3.21    18439
+F9,102,-25,T     -2.34      0.90    18439
+[1] "    file 6"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Puma 2016/1, 200/14 feb/PUMA_20160214_070000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -2.15      1.01    18439
+F2,000,-25,T     -2.78      0.43    18439
+F2,087,-25,T     -2.81      0.19    18439
+F3,000,-25,T     -2.70      0.45    18439
+F4,000,-25,T     -2.06      0.94    18439
+F4,030,-25,T     -2.31      0.96    18439
+F5,065,-25,T     -2.21      0.82    18439
+F8,025,-25,T     -2.02      0.62    18439
+F8,036,-25,T     -2.04      0.31    18439
+F6,015,-25,H      1.47      4.09    18439
+F7,017,-25,H      0.62      2.97    18439
+F9,102,-25,T     -2.22      1.43    18439
+[1] "    file 7"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Puma 2016/1, 200/14 feb/PUMA_20160214_071500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -2.11      1.38    18439
+F2,000,-25,T     -2.14      0.75    18439
+F2,087,-25,T     -2.16      0.78    18439
+F3,000,-25,T     -1.72      0.79    18439
+F4,000,-25,T     -2.41      2.10    18439
+F4,030,-25,T     -1.73      1.68    18439
+F5,065,-25,T     -2.26      1.54    18439
+F8,025,-25,T     -1.93      1.22    18439
+F8,036,-25,T     -2.20      1.10    18439
+F6,015,-25,H     -0.35      4.65    18439
+F7,017,-25,H     -0.86      2.88    18439
+F9,102,-25,T     -1.92      1.35    18439
+[1] "    file 8"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Puma 2016/1, 200/14 feb/PUMA_20160214_073000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -1.75      0.49    18439
+F2,000,-25,T     -1.77      0.31    18439
+F2,087,-25,T     -2.00      0.26    18439
+F3,000,-25,T     -1.44      0.46    18439
+F4,000,-25,T     -1.98      0.94    18439
+F4,030,-25,T     -1.20      1.41    18439
+F5,065,-25,T     -2.09      0.23    18439
+F8,025,-25,T     -1.82      0.05    18439
+F8,036,-25,T     -1.86      0.29    18439
+F6,015,-25,H      1.04      4.04    18439
+F7,017,-25,H      0.49      3.11    18439
+F9,102,-25,T     -1.72      0.68    18439
+[1] "    file 9"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Puma 2016/1, 200/14 feb/PUMA_20160214_074500.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -1.88      0.59    18439
+F2,000,-25,T     -2.27      0.37    18439
+F2,087,-25,T     -2.20      0.47    18439
+F3,000,-25,T     -1.79      0.56    18439
+F4,000,-25,T     -1.97      2.07    18439
+F4,030,-25,T     -1.46      1.67    18439
+F5,065,-25,T     -2.11      0.57    18439
+F8,025,-25,T     -1.96      0.62    18439
+F8,036,-25,T     -2.24      0.59    18439
+F6,015,-25,H     -0.69      3.84    18439
+F7,017,-25,H     -0.59      2.84    18439
+F9,102,-25,T     -2.09      0.58    18439
+[1] "    file 10"
+
+A "templateScores" object
+
+Based on the survey file:  For Sun - Full test dataset/Puma 2016/1, 200/14 feb/PUMA_20160214_080000.wav 
+
+And  12  templates 
+Score information
+             min.score max.score n.scores
+F1,025,-25,T     -1.41      0.90    18439
+F2,000,-25,T     -2.37      0.12    18439
+F2,087,-25,T     -1.88      0.36    18439
+F3,000,-25,T     -1.58      0.36    18439
+F4,000,-25,T     -2.04      2.24    18439
+F4,030,-25,T     -0.90      1.60    18439
+F5,065,-25,T     -2.16      1.13    18439
+F8,025,-25,T     -1.65      0.44    18439
+F8,036,-25,T     -2.13      0.12    18439
+F6,015,-25,H      0.04      4.25    18439
+F7,017,-25,H      0.18      3.56    18439
+F9,102,-25,T     -1.75      0.32    18439

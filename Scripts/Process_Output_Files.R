@@ -6,7 +6,7 @@ library(ggplot2)
 library(data.table)
 
 filenames <- list.files(
-  "C:/Users/Silvy/Documents/R/Repos/PrimatesAndSoundscapes2", pattern = ".txt", full.names = TRUE
+  "C:/Users/ao25848/Documents/PrimatesAndSoundscapes/Output_ManualData", pattern = ".txt", full.names = TRUE
 )
 # initialize results
 results <- tibble(
@@ -42,6 +42,7 @@ for (f in filenames){
   for (i in 1:length(d)){ # loop through file line by line
     if (str_detect(d[i], "Based") ==TRUE){
       fname <- str_remove(d[i], "Based on the survey file:  [a-zA-Z -]*/")
+      fname <- str_remove(fname, " $")
       locationSubstrings <- str_split(fname, "/")
       folder <- locationSubstrings[[1]][1]
       location <- locationSubstrings[[1]][2]
@@ -116,47 +117,7 @@ str(PrimatesInFiles)
 # Here's the problem: merging these tables does not lead to the desired results.
 Merged_tables <- left_join(results, PrimatesInFiles, by = c("audiofile" = "audiofile"))
 
-# The 'PrimatesInFiles' table gets merged in, but only gives NA values.
-
-# Some potential changes to fix this:
-
-#Try 1: maybe the issue is with the comma in the location column (e.g.4,200) in
-  # a csv (comma separated) file? We tried saving it and calling it back into
-  # memory after turning it into a tsv (tab separated).
-write_tsv(results, "test_export.tsv")
-read_tsv("test_export.tsv")
-
-Merged_tables <- left_join(results, PrimatesInFiles, by = c("audiofile" = "audiofile"))
-
-# Doesn't work, still NA. Strangely enough, this worked when I tested it with
-  # Tony, then stopped working.
-
-# Try 2: I removed the comma.
-results$location <- gsub(",","_",results$location)
-Merged_tables <- left_join(results, PrimatesInFiles, by = c("audiofile" = "audiofile"))
-# Still nothing.
-
-# Try 3: Let's copy the top audiofile name from 'PrimatesInFiles' and paste that over the top audiofile name in 'results'. Does that give us a match?
-results[1,"audiofile"] <- "HARPIA_20130208_054500.wav"
-Merged_tables <- left_join(results, PrimatesInFiles, by = c("audiofile" = "audiofile"))
-# Yes! This matches! So is this an issue with data type between the two columns?
-
-# Let's first fix that entry in 'results' again
-results[1,"audiofile"] <- "HARPIA_20130227_080000.wav"
-
-# Try 4: Set both columns as character data again:
-results$audiofile <- as.character(results$audiofile)
-PrimatesInFiles$audiofile <- as.character(PrimatesInFiles$audiofile)
-Merged_tables <- left_join(results, PrimatesInFiles, by = c("audiofile" = "audiofile"))
-
-# Okay... we keep that first line of data, somehow... but the rest is not fixed.
-
-#Try 5: ...? Is there maybe an extra comma in front/behind theh audiofile names in either one of these columns?
-
-
-
-
-fwrite(results, "consolidated_completedata_output.csv") #The usual write_csv() only wrote the first 600 lines rather than all 14000+!
+fwrite(Merged_tables, "consolidated_completedata_output.csv") #The usual write_csv() only wrote the first 600 lines rather than all 14000+!
 
 # cleanup memory and work space
 rm(list=c("results", "filenames","f"))

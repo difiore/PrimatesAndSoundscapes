@@ -1,10 +1,10 @@
 library(tidyverse)
+library(data.table)
 
 
-data <- "consolidated_completedata_output.csv"
-d <- read_csv(data, col_names = TRUE)
+data <- read_csv("consolidated_completedata_output.csv", col_names = TRUE)
 
-output <- d %>%
+output <- data %>%
   group_by(audiofile, species) %>%
   summarize(max.avg = mean(max.score),
             min.avg = mean(min.score))
@@ -20,3 +20,8 @@ output <- output %>% mutate(detection1 =
                             )
 sum(output$detection1)
 sum(output$detection2)
+
+setnames(data,'species','AutomatedDetections')
+setnames(data,'PrimateSpecies','ManualDetections')
+
+

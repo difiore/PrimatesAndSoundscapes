@@ -1,7 +1,15 @@
 library(tidyverse)
 library(ggplot2)
 
-setwd("C:/Users/ao25848/Documents/PrimatesAndSoundscapes")
+# pull in processed output files from template run
+template_output <- read_csv("consolidated_completedata_output.csv", show_col_types = FALSE, skip_empty_rows = TRUE)
+
+#---
+
+# What happens if we remove scores from worst template?
+
+
+#---
 
 # pull in processed output files from template run
 template_output <- read_csv("consolidated_completedata_output.csv", show_col_types = FALSE, skip_empty_rows = TRUE)

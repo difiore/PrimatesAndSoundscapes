@@ -75,19 +75,18 @@ audioFileList <- audioFileList %>% select(-c(date, time, hh, mm, ss))
 # Filter down to include those files up to 08:00 am, inclusive...
 audioFileList <- audioFileList %>% filter(hour(datetime) * 60 + minute(datetime) <= 480) # 08:00 am is 480 minutes after midnight
 # Get plot and year info and recording location info from file path...
-audioFileList <- audioFileList %>% mutate(plot_year = str_split(f, "/")[[1]][6])
-audioFileList <- audioFileList %>% mutate(location = str_split(f, "/")[[1]][7])
-# Create a new list of all unique directories that these files are found in...
-dirList <- audioFileList %>% mutate(dir = dirname(f)) %>% select(dir) %>% unique()
+audioFileList <- audioFileList %>% rowwise %>% mutate(plot_year = unlist(str_split(f, "/"))[6])
+audioFileList <- audioFileList %>% mutate(location = unlist(str_split(f, "/"))[7])
 
-testfiles <- 3
+testfiles <- 3 # just runs through a small set of .wav files to test... here, the first 3 in the dataset...
 
-outfile <- "output.txt"
+outfile <- "full_output.txt"
 
 sink(file = outfile)
 
 # Loop through all .wav files and run binMatch()
-for (i in 1:nrow(audioFileList[1:testfiles,])) {
+# This code generates ONE output file containing "scores" for each .wav file (n = 1200 total)
+for (i in 1:nrow(audioFileList[1:testfiles,])) { # replace `nrow(audioFileList[1:testfiles,]` with `nrow(audioFileList)` to run entire dataset
   print("------------")
   print(paste("folder_path:", dirname(audioFileList[i,]$f)))
   print(paste("filename:", basename(audioFileList[i,]$f)))
@@ -97,5 +96,31 @@ for (i in 1:nrow(audioFileList[1:testfiles,])) {
   scores <- binMatch(audioFileList[i,]$f, ctemps_adjusted_amp, quiet = TRUE)
   print(scores)
 }
-
 sink()
+
+
+# Alternatively... we can create a list of DIRECTORIES of unique plot-year-locations that these files are found in
+# and then loop through this list running binMatch()...
+# This should generate one output file for each combination of plot-year-location, with up to 10 files per sampled day
+# There are 44 unique plot-year-locations with between 2 and 8 sampled days each
+# This is analogous to what Silvy created before, copying code and redoing path for each plot-year-location combination
+# Again, there's a total of n = 1200 .wav files between 05:45 and 08:00
+dirList <- audioFileList %>% mutate(dir = dirname(f)) %>% rowwise() %>%
+  mutate(plot_year = unlist(str_split(dir, "/"))[6]) %>% mutate(location = unlist(str_split(dir, "/"))[7]) %>%
+  select(plot_year, location) %>% unique()
+nrow(dirList) # 44 unique combinations of plot-year-locations
+
+testdirs <- 2 # just runs through a small set of directories to test... here, the first 2 (out of 44) in the dataset...
+
+for (i in 1:nrow(dirList[1:testdirs,])){ # replace `dirList[1:testdirs,]` with `nrow(dirList)` to run entire dataset
+  outfile <- paste0("output_", dirList[i,]$plot_year, "_", dirList[i,]$location, ".txt")
+  print(outfile)
+  f <- audioFileList %>% filter(plot_year == dirList[i,]$plot_year & location == dirList[i,]$location)
+  print(nrow(f))
+  sink(file = outfile)
+  for (j in 1:nrow(f)){
+    scores <- binMatch(f[j,]$f, ctemps_adjusted_amp, quiet = TRUE)
+    print(scores)
+  }
+  sink()
+}

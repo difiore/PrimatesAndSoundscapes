@@ -82,7 +82,7 @@ plot(bdetects)
 # Tony's alternative...
 
 # Get list all .wav files in the test dataset...
-audioFileList <- data.frame(f = list.files(path = "E:/For Sun - Full test dataset", full.names = TRUE, recursive = TRUE)) # lists all of files recursively
+audioFileList <- data.frame(f = list.files(path = "E:/For Sun - Full test dataset/Puma 2017", full.names = TRUE, recursive = TRUE)) # lists all of files recursively
 
 # Get a datetime for each file based on base file name in path and reformat into a datetime...
 audioFileList <- audioFileList %>% mutate(date = str_extract(basename(f),"_[0-9]+_"))
@@ -91,30 +91,33 @@ audioFileList <- audioFileList %>% mutate(date = as.Date(date,"%Y%m%d"))
 audioFileList <- audioFileList %>% mutate(time = str_extract(f,"[0-9]+.wav"))
 audioFileList <- audioFileList %>% mutate(hh = str_sub(time,-10, -9), mm = str_sub(time, -8,-7), ss = str_sub(time, -6, -5))
 audioFileList <- audioFileList %>% mutate(datetime = make_datetime(year = year(date), month = month(date), day = day(date), hour = hh, min = mm, sec = ss))
+
 # Get rid of extraneous columns
 audioFileList <- audioFileList %>% select(-c(date, time, hh, mm, ss))
+
 # Filter down to include those files up to 08:00 am, inclusive...
 audioFileList <- audioFileList %>% filter(hour(datetime) * 60 + minute(datetime) <= 480) # 08:00 am is 480 minutes after midnight
+
 # Get plot and year info and recording location info from file path...
-audioFileList <- audioFileList %>% rowwise %>% mutate(plot_year = unlist(str_split(f, "/"))[6])
-audioFileList <- audioFileList %>% mutate(location = unlist(str_split(f, "/"))[7])
+audioFileList <- audioFileList %>% rowwise %>% mutate(plot_year = unlist(str_split(f, "/"))[3]) # I (Silvy) had to change the number between [] from 6 to 3.
+audioFileList <- audioFileList %>% mutate(location = unlist(str_split(f, "/"))[4]) # I (Silvy) had to change the number between [] from 7 to 4.
 
 testfiles <- 3 # just runs through a small set of .wav files to test... here, the first 3 in the dataset...
 
-outfile <- "test_output.txt"
+outfile <- "2022-07-11_spiders_included_output_Puma2017.txt"
 
 sink(file = outfile)
 
 # Loop through all .wav files and run binMatch()
 # This code generates ONE output file containing "scores" for each .wav file (n = 1200 total)
-for (i in 1:nrow(audioFileList[1:testfiles,])) { # replace `nrow(audioFileList[1:testfiles,]` with `nrow(audioFileList)` to run entire dataset
+for (i in 1:nrow(audioFileList)) { # replace `nrow(audioFileList[1:testfiles,]` with `nrow(audioFileList)` to run entire dataset
   print("------------")
   print(paste("folder_path:", dirname(audioFileList[i,]$f)))
   print(paste("filename:", basename(audioFileList[i,]$f)))
   print(paste("plot_year:", audioFileList[i,]$plot_year))
   print(paste("location:", audioFileList[i,]$location))
   print(paste("datetime:", audioFileList[i,]$datetime))
-  scores <- binMatch(audioFileList[i,]$f, ctemps_adjusted_amp, quiet = TRUE)
+  scores <- binMatch(audioFileList[i,]$f, ctemps_adjusted_amp, quiet = TRUE) #Replace 'ctemps_adjusted_amp' with another template bin if needed.
   print(scores)
 }
 sink()

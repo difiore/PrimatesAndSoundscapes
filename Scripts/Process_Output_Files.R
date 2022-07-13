@@ -97,22 +97,20 @@ for (f in filenames){
 }
 
 
-#Separate data that are currently merged in a single column
+# Separate data that are currently merged in a single column
 results <- separate(data = results, col = "template",
                     into = c("template", "starttime", "ampcutoff", "species"),
                     sep = ",")
 
-#Reorder columns and remove some obsolete columns.
+# Reorder columns and remove some obsolete columns.
 results <- results[, c(13, 10, 11, 12, 3, 4, 5, 6, 7, 8, 9)]
 
+# Merge tables
 Merged_tables <- left_join(results, Primates_In_All_Files, by = c("audiofile" = "audiofile"))
 
-# fwrite(Merged_tables, "consolidated_completedata_output.csv") #The usual write_csv() only wrote the first 600 lines rather than all 14000+!
-
-# temporarily not saving join of manual data
 fwrite(results, "results_second_analysis_2022-07-13.csv") #The usual write_csv() only wrote the first 600 lines rather than all 14000+!
 
-# cleanup memory and work space
+# Cleanup memory and work space
 rm(list=c("results", "filenames","f"))
 
 
